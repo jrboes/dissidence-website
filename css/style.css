@@ -1,0 +1,129 @@
+html {
+    scroll-padding-top: 62px;
+}
+:root{
+    /* Color Palette */
+    --flax: hsla(46, 75%, 75%, 1);
+    --vanilla: hsla(46, 82%, 82%, 1);
+    --gold-metallic: hsla(42, 70%, 66%, 1);
+    --bronze: hsla(33, 47%, 51%, 1);
+    --umber: hsla(30, 54%, 37%, 1);
+}
+
+@font-face {
+    font-family: P22Declaration;
+    src: url(P22-Declaration-W01-Script.ttf);
+}
+@font-face {
+    font-family: CursiveSerif;
+    src: url(CursiveSerif.ttf);
+}
+
+body {
+    background-image: url('../img/background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--flax);
+    flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+}
+.navbar {
+    font-size: 20px;
+}
+.navbar-brand {
+    position: fixed;
+    left: 10px;
+    top: 5px;
+}
+h2 {
+    font-family: CursiveSerif;
+    font-size: 40px;
+}
+p {
+    font-size: 18px;
+}
+.blink {
+    text-decoration: none;
+}
+.blink:link, .blink:visited, .blink.active {
+  color: var(--umber);
+  background-color: transparent;
+}
+.blink:hover {
+  color: var(--bronze);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.banner {
+    padding-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1320px;
+}
+.video {
+    background-color: var(--flax);
+    height: auto
+}
+.audio {
+    background-color: var(--gold-metallic);
+}
+.writing {
+    background-color: var(--flax);
+}
+.banner h1 {
+    font-family: P22Declaration;
+    font-size: 12vw;
+}
+.banner p {
+    font-family: CursiveSerif;
+    text-align: center;
+    font-size: 3vw;
+}
+footer {
+    margin-top: auto;
+}
+.card {
+  border-radius: 10px;
+  background: var(--vanilla);
+  border: 2px solid var(--umber);
+  box-shadow: 5px 5px 5px black;
+}
+.modal-content {
+  border-radius: 10px;
+  background: var(--vanilla);
+  border: 2px solid var(--umber);
+  box-shadow: 5px 5px 5px black;
+}
+.modal-header {
+  border-bottom: 2px solid var(--umber);
+}
+
+@media screen and (min-width: 1320px) {
+    .banner h1 {
+        font-size: 158.4px;
+    }
+    .banner p {
+        font-size: 39.6px;
+    }
+}
+
+.container-fluid {
+    box-shadow: 0px 5px 5px black;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  box-shadow: 5px 5px 5px black;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
