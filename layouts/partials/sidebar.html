@@ -1,0 +1,27 @@
+<div class="card sidebar">
+  <div class="card-body">
+
+    <h3 class="card-title">Other Articles</h3>
+    <div class="row g-4">
+      {{ range ( where site.RegularPages "Section" "archives" | first 3 ) }}
+      <div class="col-12">
+        <a href={{ .Permalink }}><h5>{{ .Title }}</h5></a> - {{ .Params.Author }} | {{ .Date.Format "January 2, 2006" }}
+      </div>
+      {{ end }}
+    </div>
+
+    <hr>
+    <h3 class="card-title">Subscribe</h3>
+    <p class="card-text">Subscribe on Patreon and get access to more content.</p>
+    <div class="text-center">
+      <a class="btn btn-outline-dark" href="https://www.patreon.com/duedissidence" role="button">
+        <iconify-icon icon="simple-icons:patreon"></iconify-icon> &nbsp; Subscribe!
+      </a>
+    </div>
+
+    <hr>
+    <h3 class="card-title">Get Notifications</h3>
+    <p class="card-text">Get announcements of live streams and new articles.</p>
+    <div id="custom-substack-embed" class="d-flex justify-content-center"></div>
+  </div>
+</div>

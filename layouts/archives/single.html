@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+<div class="container banner">
+  <div class="row g-4">
+    <img src="{{ .Params.Image }}">
+    <h2>{{ .Title  }}</h2>
+    <p><b>{{ .Params.Author }}</b> | {{ .Date.Format "January 2, 2006" }}</p>
+  </div>
+</div>
+
+<div class="container-fluid bg-flax">
+  <div class="container post p-3">
+    <div class="row g-4">
+      <div class="col-12 col-lg-9">
+        {{ .Content }}
+
+        <div class="row g-3">
+          {{ with .Next }}
+          <div class="col-12 col-md-6">
+            <div class="card h-100">
+              <div class="card-body py-0 pe-0">
+                <h3 class="card-title">Next</h3>
+                <a href={{ .Permalink }}>
+                  <h4 class="card-text">{{ .Title }}</h4>
+                </a>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">{{ .Params.Author }} | {{ .Date.Format "January 2, 2006" }}</small>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+
+          {{ with .Prev }}
+          <div class="col-12 col-md-6">
+            <div class="card h-100 text-end">
+              <div class="card-body py-0 ps-0">
+                <h3 class="card-title">Previous</h3>
+                <a href={{ .Permalink }}>
+                  <h4 class="card-text">{{ .Title }}</h4>
+                </a>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">{{ .Params.Author }} | {{ .Date.Format "January 2, 2006" }}</small>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+
+      </div>
+      <div class="col-12 col-lg-3">
+        {{ partial "sidebar.html" . }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
