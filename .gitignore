@@ -10,3 +10,4 @@ htmlcov
 
 .hugo_build.lock
 resources/
+public/
