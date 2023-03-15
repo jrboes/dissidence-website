@@ -7,7 +7,7 @@
    {{ if .IsHome }}
    buttonText: "Subscribe",
    {{ else  }}
-   buttonText: "X",
+   buttonText: "\u2713",
    {{ end }}
    theme: "custom",
    colors: {
@@ -17,6 +17,7 @@
      text: "#e9ecef",
    }
  };
+ {{ if .IsHome }}
  window.SubstackFeedWidget = {
    substackUrl: "duedissidence.substack.com",
    posts: 3,
@@ -24,8 +25,9 @@
      primary: "#404040",
      secondary: "#404040",
      background: "#A6646400",
-   }
+ }
  };
+ {{ end }}
 </script>
 <script src="https://substackapi.com/embeds/feed.js" async></script>
 <script src="https://substackapi.com/widget.js" async></script>
