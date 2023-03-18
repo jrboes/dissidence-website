@@ -1,4 +1,4 @@
-baseURL = "https://jrboes.github.io/dissidence-website"
+baseURL = "https://localhost/"
 languageCode = "en-us"
 title = "Due Dissidence"
 disableKinds = ["taxonomy", "taxonomyTerm"]

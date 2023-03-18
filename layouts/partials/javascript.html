@@ -1,5 +1,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
 <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+<script src="https://substackapi.com/widget.js" async></script>
 <script>
  window.CustomSubstackWidget = {
    substackUrl: "duedissidence.substack.com",
@@ -17,7 +18,10 @@
      text: "#e9ecef",
    }
  };
- {{ if .IsHome }}
+</script>
+{{ if .IsHome }}
+<script src="https://substackapi.com/embeds/feed.js" async></script>
+<script>
  window.SubstackFeedWidget = {
    substackUrl: "duedissidence.substack.com",
    posts: 3,
@@ -25,9 +29,7 @@
      primary: "#404040",
      secondary: "#404040",
      background: "#A6646400",
- }
+   }
  };
- {{ end }}
 </script>
-<script src="https://substackapi.com/embeds/feed.js" async></script>
-<script src="https://substackapi.com/widget.js" async></script>
+{{ end }}
