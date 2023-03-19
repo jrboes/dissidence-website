@@ -56,3 +56,23 @@
   </div>
 </div>
 {{ end }}
+
+{{ define "javascript" }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+<script src="https://substackapi.com/widget.js" async></script>
+<script>
+ window.CustomSubstackWidget = {
+   substackUrl: "duedissidence.substack.com",
+   placeholder: "example@gmail.com",
+   buttonText: "\u2713",
+   theme: "custom",
+   colors: {
+     primary: "#212529",
+     input: "#00000000",
+     email: "#000000",
+     text: "#e9ecef",
+   }
+ };
+</script>
+{{ end }}

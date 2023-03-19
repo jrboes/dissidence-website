@@ -10,7 +10,8 @@
         {{ block "main" . }}
         {{ end }}
         {{ partial "footer.html" . }}
-        {{ partial "javascript.html" . }}
+        {{ block "javascript" . }}
+        {{ end }}
     </body>
 
 </html>

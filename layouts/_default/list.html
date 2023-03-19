@@ -21,7 +21,7 @@
       <div class="col-12 col-sm-3">
         <h2>Videos</h2>
       </div>
-      <div class="col-12 col-sm-9 text-end">
+      <div class="col-12 col-sm-9 text-center text-md-end">
         <a class="btn btn-lg btn-outline-dark btn-floating m-1" href="https://www.youtube.com/@DueDissidence" role="button" title="YouTube">
           <iconify-icon icon="simple-icons:youtube" height="24"></iconify-icon>
         </a>
@@ -98,9 +98,7 @@
         <div class="card-body">
           <h2 class="card-title">Get Notifications</h2>
           <p class="card-text" style="margin-bottom:30px">Sign-up to our Substack and get regular announcements of our live streams and notifications of our new articles.</p>
-
           <div id="custom-substack-embed" class="d-flex justify-content-center"></div>
-
         </div>
       </div>
     </div>
@@ -176,13 +174,11 @@
 <!-- Audio -->
 <div class="container-fluid bg-gold" id="audio">
   <div class="container p-3">
-
     <div class="row gx-4 gy-2">
-
       <div class="col-12 col-md-3">
         <h2>Podcasts</h2>
       </div>
-      <div class="col-12 col-md-9 text-end">
+      <div class="col-12 col-md-9 text-center text-md-end">
         <a class="btn btn-lg btn-outline-dark btn-floating m-1" href="https://open.spotify.com/show/3jDky0r8Cg0vlYuORwWhaE" role="button" title="Spotify">
           <iconify-icon icon="simple-icons:spotify" height="24"></iconify-icon>
         </a>
@@ -205,7 +201,6 @@
           <iconify-icon icon="simple-icons:castbox" height="24"></iconify-icon>
         </a>
       </div>
-
       <p>Listen along on a multitude of popular podcast platforms.</p>
       <div class="card">
         <div class="card-body">
@@ -213,7 +208,6 @@
         </div>
       </div>
     </div>
-
   </div>
 </div>
 
@@ -222,12 +216,12 @@
   <div class="container p-3">
 
     <div class="row gx-4 gy-2">
-      <div class="col-12 col-md-3">
+      <div class="col-3">
         <h2>Articles</h2>
       </div>
 
-      <div class="col-12 col-md-9 text-end">
-        <a class="btn btn-lg btn-outline-dark btn-floating m-1" href="https://duedissidence.substack.com/" role="button" title="Substack">
+      <div class="col-9 text-end">
+        <a class="btn btn-lg btn-outline-dark btn-floating m-1" href="https://duedissidence.substack.com" role="button" title="Substack">
           <iconify-icon icon="simple-icons:substack" height="24"></iconify-icon>
         </a>
       </div>
@@ -322,5 +316,36 @@
 
   </div>
 </div>
+{{ end }}
 
+{{ define "javascript" }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+<script src="https://substackapi.com/widget.js" async></script>
+<script>
+ window.CustomSubstackWidget = {
+   substackUrl: "duedissidence.substack.com",
+   placeholder: "example@gmail.com",
+   buttonText: "\u2713",
+   theme: "custom",
+   colors: {
+     primary: "#212529",
+     input: "#00000000",
+     email: "#000000",
+     text: "#e9ecef",
+   }
+ };
+</script>
+<script src="https://substackapi.com/embeds/feed.js" async></script>
+<script>
+ window.SubstackFeedWidget = {
+   substackUrl: "duedissidence.substack.com",
+   posts: 3,
+   colors: {
+     primary: "#404040",
+     secondary: "#404040",
+     background: "#A6646400",
+   }
+ };
+</script>
 {{ end }}
