@@ -2,8 +2,8 @@
   <nav class="navbar fixed-top navbar-expand-sm  navbar-dark bg-dark">
     <div class="container justify-content-end">
 
-      <a class="navbar-brand" href="{{ .Site.BaseURL | relURL }}#home">
-        <img src="{{ .Site.BaseURL | relURL }}img/logo-thumb-round.png" alt="Due Dissidence.">
+      <a class="navbar-brand" href='{{ "#home" | relURL }}'>
+        <img src='{{ "img/logo-thumb-round.png" | relURL }}' alt="Due Dissidence.">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -12,26 +12,26 @@
       <div class="collapse navbar-collapse justify-content-end text-end" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#video">Videos</a>
+            <a class="nav-link" href='{{ "#video" | relURL }}'>Videos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#audio">Podcasts</a>
+            <a class="nav-link" href='{{ "#audio" | relURL }}'>Podcasts</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Articles</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="{{ .Site.BaseURL | relURL }}#writing">Current</a></li>
-              <li><a class="dropdown-item" href="{{ .Site.BaseURL | relURL }}archives">Archives</a></li>
+              <li><a class="dropdown-item" href='{{ "#writing" | relURL }}'>Current</a></li>
+              <li><a class="dropdown-item" href='{{ "archives" | relURL }}'>Archives</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#about">About</a>
+            <a class="nav-link" href='{{ "#about" | relURL }}'>About</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Contribute</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="{{ .Site.BaseURL | relURL }}#contribute">Due Dissidence</a></li>
-              <li><a class="dropdown-item" href="{{ .Site.BaseURL | relURL }}outreach">Mutual-Aid</a></li>
+              <li><a class="dropdown-item" href='{{ "#contribute" | relURL }}'>Due Dissidence</a></li>
+              <li><a class="dropdown-item" href='{{ "outreach" | relURL }}'>Mutual-Aid</a></li>
             </ul>
           </li>
         </ul>

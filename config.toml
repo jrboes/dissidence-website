@@ -1,4 +1,4 @@
-baseURL = "https://localhost/"
+baseURL = "https://localhost/demo"
 languageCode = "en-us"
 title = "Due Dissidence"
 disableKinds = ["taxonomy", "taxonomyTerm"]
