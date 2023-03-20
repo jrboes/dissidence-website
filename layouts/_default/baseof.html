@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
+    {{ block "head" . }}
     <head>
-        {{ partial "meta.html" . }}
-    </head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="robots" content="index, follow">
 
+        {{ if isset .Params "title" }}
+        <title>{{ .Params.title }} | {{ .Site.Title }}</title>
+        {{ else }}
+        <title>{{ .Site.Title }}</title>
+        {{ end }}
+
+        <link rel="icon" type="image/x-icon" href='{{ "fav.ico" | relURL }}'>
+
+        {{ block "style" .  }}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+        {{ $sassTemplate := resources.Get "scss/main.scss" }}
+        {{ $style := $sassTemplate | resources.ExecuteAsTemplate "main.scss" . | resources.ToCSS | resources.Minify }}
+        <link rel="stylesheet" href="{{ $style.Permalink }}">
+        {{ end }}
+    </head>
+    {{ end }}
+
+    {{ block "body" . }}
     <body>
+        {{ block "navbar" .  }}
         {{ partial "nav.html" }}
+        {{ end }}
         {{ block "main" . }}
         {{ end }}
+        {{ block "footer" .  }}
         {{ partial "footer.html" . }}
+        {{ end }}
         {{ block "javascript" . }}
         {{ end }}
     </body>
+    {{ end }}
 
 </html>

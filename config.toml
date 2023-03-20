@@ -1,5 +1,6 @@
-baseURL = "https://localhost/demo"
+baseURL = "https://localhost"
 languageCode = "en-us"
 title = "Due Dissidence"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 summaryLength = 30
+enableRobotsTXT = "true"
