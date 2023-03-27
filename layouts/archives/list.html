@@ -9,7 +9,7 @@
 <div class="container-fluid bg-gold">
   <div class="container p-3">
     <div class="row justify-content-around row-cols-1 row-cols-lg-3 g-4 mt-0 mb-4">
-    {{ range .Pages }}
+    {{ range (where .Pages ".Params.unlisted" "!=" "true") }}
       <div class="col">
         <div class="card h-100">
           {{ $image := .Page.Resources.GetMatch .Params.Image }}
