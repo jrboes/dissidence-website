@@ -4,3 +4,6 @@ title = "Due Dissidence"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 summaryLength = 30
 enableRobotsTXT = "true"
+[params]
+  description = "Political commentary, interviews, & satire."
+  author = "Due Dissidence"
