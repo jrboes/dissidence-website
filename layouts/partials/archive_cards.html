@@ -1,0 +1,24 @@
+<div class="col">
+  <div class="card h-100">
+    {{ if .Param "Image" }}
+    {{ $image := .Page.Resources.GetMatch .Params.Image }}
+    {{ $image := $image.Resize "411x231" }}
+    <a href="{{ .Permalink }}">
+      <img class="card-img-top" src="{{ $image.Permalink }}">
+    </a>
+    {{ else }}
+    <a href="{{ .Permalink }}">
+      <img class="card-img-top" src="/img/header.png">
+    </a>
+    {{ end  }}
+    <div class="card-body">
+      <a href="{{ .Permalink }}">
+        <h5 class="card-title">{{ .Title }}</h5>
+      </a>
+      <p class="card-text">{{ .Summary }}</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">{{ .Date.Format "January 2, 2006" }}</small>
+    </div>
+  </div>
+</div>

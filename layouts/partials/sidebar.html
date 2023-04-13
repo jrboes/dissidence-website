@@ -3,7 +3,7 @@
 
     <h3 class="card-title">Other Articles</h3>
     <div class="row g-4">
-      {{ range ( where site.RegularPages "Section" "archives" | first 3 ) }}
+      {{ range ( where site.RegularPages "Section" "archives" | shuffle | first 3 ) }}
       <div class="col-12">
         <a href={{ .Permalink }}><h5>{{ .Title }}</h5></a> - {{ .Params.Author }} | {{ .Date.Format "January 2, 2006" }}
       </div>
