@@ -2,9 +2,13 @@
 
 <div class="container banner">
   <div class="row g-4">
+    {{ if .Params.Image }}
     <img src="{{ .Params.Image }}">
+    {{ else }}
+    <img src="/img/header.png">
+    {{ end }}
     <h2>{{ .Title  }}</h2>
-    <p><b>{{ .Params.Author }}</b> | {{ .Date.Format "January 2, 2006" }}</p>
+    <p><b>{{ .Params.Author }}</b> | {{ dateFormat "January 2, 2006" .Date.Local }}</p>
   </div>
 </div>
 
@@ -25,7 +29,7 @@
                 </a>
               </div>
               <div class="card-footer">
-                <small class="text-muted">{{ .Params.Author }} | {{ .Date.Format "January 2, 2006" }}</small>
+                <small class="text-muted">{{ .Params.Author }} | {{ dateFormat "January 2, 2006" .Date.Local }}</small>
               </div>
             </div>
           </div>
@@ -41,7 +45,7 @@
                 </a>
               </div>
               <div class="card-footer">
-                <small class="text-muted">{{ .Params.Author }} | {{ .Date.Format "January 2, 2006" }}</small>
+                <small class="text-muted">{{ .Params.Author }} | {{ dateFormat "January 2, 2006" .Date.Local }}</small>
               </div>
             </div>
           </div>

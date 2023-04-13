@@ -1,0 +1,20 @@
+---
+title: "This is What a Failed Democracy Looks Like"
+Date: 2020-10-01T16:10:18+00:00
+author: Keaton Weiss
+aliases: ["/2020/10/01/this-is-what-a-failed-democracy-looks-like-recapping-the-trump-biden-debate"]
+---
+
+So, [the first debate](https://www.youtube.com/watch?v=fX79e-0RiRU) between Joe Biden and Donald Trump is in the books. And if the next two debates are canceled, [as some have suggested they ought to be](https://www.nytimes.com/2020/10/01/opinion/trump-biden-debates.html), and we complete our slide into authoritarianism, this could, in theory, have been the final debate in American history.
+
+Relax, I'm only joking. . .kind of. What's no joke at all is that this debate was the kind of embarrassment that could only be produced by a failing state. For ninety minutes, we watched a grease-painted casino mogul-turned-reality television star-turned-leader of the free world berate a doddering old man of rapidly deteriorating mental faculty who mumbled his retorts into his podium. These are our two candidates for president at a time when over 7 million Americans have been infected with the coronavirus; millions are unemployed, uninsured, and facing eviction. As this once-in-a-century pandemic exposes all of our neoliberal capitalist system's fatal flaws at once, we're forced to choose, for our next leader, between an incumbent who spent his life exploiting the system for personal gain, and a lifelong political hack who was instrumental in designing it.
+
+On the topic of healthcare, Trump falsely accused Biden of pushing socialized medicine, Biden responded with talk of a public option, moderator Chris Wallace asked if a public option would lead to socialized medicine, and Biden assured him that his "public option" would only be available to those who couldn't afford private insurance. In other words, Biden is not pushing any public option at all, since Medicaid is already in place for those too poor to afford private healthcare plans. So even amidst the most dire public health crisis of our lifetimes, the debate over healthcare seemed to be a contest of who could most convincingly make the case *against* a robust public health system. The same dynamic applied to the issue of climate change, where even as the west coast burns to a crisp and orange smoke fills the air, much ado was made over the price tag and short term economic impact of even the most modest reforms. Biden dencounced the Green New Deal, then suggested it would pay for itself, then denounced it again, all while Donald Trump absurdly claimed that he's for "immaculate air."
+
+This election is America's letter of resignation to the world, and this debate was perhaps the final sentence of its last body paragraph before the epic conclusion, which is likely to be written in the form of a contested election that sparks violent civil unrest in the final months of this already wretched year. Progressives have been saying this day would come for quite some time now; to us, none of this is a surprise, it's just that the coronavirus brought about this reckoning a few years ahead of schedule. But it's here, and there's no going back now. 
+
+To hear our full recap of the debate and our forecasting of America's collapse as a global leader, listen to episode 89 of the Due Dissidence podcast by clicking the player below:
+
+Subscribe to the Due Dissidence podcast on [Apple,](https://podcasts.apple.com/us/podcast/due-dissidence/id1457244081)[Stitcher](https://www.stitcher.com/podcast/due-dissidence)[,](https://podcasts.apple.com/us/podcast/due-dissidence/id1457244081)[Spotify](https://open.spotify.com/show/3jDky0r8Cg0vlYuORwWhaE)[,](https://podcasts.apple.com/us/podcast/due-dissidence/id1457244081)[Castbox](https://castbox.fm/channel/Due-Dissidence%7D-id2086184?country=us)[,](https://podcasts.apple.com/us/podcast/due-dissidence/id1457244081) [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjYwNjI5Njg0NC9zb3VuZHMucnNz), or any major podcast player!
+
+**Photos: Morry Gash-Pool, Getty Images**

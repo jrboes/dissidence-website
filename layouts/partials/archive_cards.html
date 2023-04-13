@@ -18,7 +18,7 @@
       <p class="card-text">{{ .Summary }}</p>
     </div>
     <div class="card-footer">
-      <small class="text-muted">{{ .Date.Format "January 2, 2006" }}</small>
+      <small class="text-muted">{{ dateFormat "January 2, 2006" .Date.Local }}</small>
     </div>
   </div>
 </div>

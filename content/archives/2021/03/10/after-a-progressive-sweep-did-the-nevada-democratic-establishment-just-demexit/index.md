@@ -1,0 +1,23 @@
+---
+title: "After a Progressive Sweep, Did the Nevada Democratic Establishment Just DemExit?"
+Date: 2021-03-10T12:03:37+00:00
+author: Keaton Weiss
+aliases: ["/2021/03/10/after-a-progressive-sweep-did-the-nevada-democratic-establishment-just-demexit"]
+image: bernie_sanders_25673369720.jpg
+---
+
+Progressive candidates [swept control of the Nevada Democratic Party on Saturday, March 6th](https://theintercept.com/2021/03/08/nevada-democratic-party-dsa/?fbclid=IwAR0ad8C0KxIWCQP1UhGoJjvxPVNUyB4M3OnjGOKBqGRXOOJK4v3sEDEiEG4). With the backing of the local DSA chapter, Judith Whitmer was elected chair of the state party, and four other Left candidates also prevailed in their respective races. Immediately following their victories, they received word that the entire staff of the state party was quitting, and terminating their contracts with independent consultants as well. *The Intercept* also reported that before Saturday's election, the Nevada Democrats transferred $450,000 out of the party and into the DSCC, which will work to re-elect incumbent Democratic Senator Catherine Cortez Masto in 2022. Whitmer, in her [appearance on the *Deconstructed* podcast](https://www.happyscribe.com/public/deconstructed-with-mehdi-hasan/bernie-backers-took-over-the-nevada-democratic-party), did not confirm or deny that, but she said that she has enlisted an attorney to try and prevent any similar shenanigans.
+
+Ironically, prior to the vote, the [Harry Reid machine](https://www.npr.org/2020/11/10/933548747/will-harry-reid-machine-continue-to-work-for-democrats-in-next-elections)'s slate of candidates billed themselves as the ["Progressive Unity Slate,"](https://tsegerblom.medium.com/the-progressive-unity-slates-racial-equity-plan-689d8dcdb20f) and criticized the socialist-backed roster for being too divisive to unify the party. But for all their talk of party unity, the establishment in Nevada made clear that unless the Democratic party serves the corporate interests that fund it, it's of no real use to them. They essentially DemExited within 24 hours of realizing that the party would no longer be aligned with their agenda, and are now, according to *The Intercept,* setting up "an independent shop."
+
+Jon Ralston, the Nevada reporter who [falsely claimed in 2016 that Bernie Sanders supporters erupted in a violent fit of chair-throwing rage](https://www.snopes.com/fact-check/did-sanders-supporters-throw-chairs-at-nevada-democratic-convention/) at the state convention, lamented the fall of the party establishment, which he called ["the most effective Democratic Party in the country."](https://thenevadaindependent.com/article/say-goodbye-to-the-most-effective-democratic-party-in-the-country) Ralston also wrote that "[the] machine will still be there next year...it just won't be called the Democratic Party." As much as we might not want to admit it, he's right about that. The same machine will still be there, just under a different banner.
+
+This is the problem with progressives' inside-the-party strategy: by the time the Left does "take over" the party, the infrastructure that makes the party so powerful will likely have been sold off, rendering the party an empty shell of its former self. The money, the personnel, the consultant relationships, will all be gone, and we'll essentially be tasked with creating a new party anyway - because the Democrats, as they demonstrated in Nevada, will bail on the party, and immediately create a proxy party, if it comes to that, on a national level. 
+
+Are we not better off just creating a major new party right now? Why waste time wrestling over the name "Democrat," which is toxic to so much of the country in the first place? Why ask permission from Democrats to control their institution, if they'll gut the party so it's of little use to us if and when we do eventually win?
+
+We discuss all of this and more on episode 109 of the Due Dissidence podcast. Listen to our full conversation by clicking the player below:
+
+Subscribe to the Due Dissidence podcast on [Apple,](https://podcasts.apple.com/us/podcast/due-dissidence/id1457244081)[Stitcher](https://www.stitcher.com/podcast/due-dissidence)[,](https://podcasts.apple.com/us/podcast/due-dissidence/id1457244081)[Spotify](https://open.spotify.com/show/3jDky0r8Cg0vlYuORwWhaE)[,](https://podcasts.apple.com/us/podcast/due-dissidence/id1457244081)[Castbox](https://castbox.fm/channel/Due-Dissidence%7D-id2086184?country=us)[,](https://podcasts.apple.com/us/podcast/due-dissidence/id1457244081) [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjYwNjI5Njg0NC9zb3VuZHMucnNz), or any major podcast player!
+
+**Photo: Gage Skidmore**

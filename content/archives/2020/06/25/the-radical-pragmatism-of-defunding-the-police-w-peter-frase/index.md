@@ -1,0 +1,18 @@
+---
+title: "Why Defunding the Police Scares the Establishment So Much"
+Date: 2020-06-25T12:06:08+00:00
+author: Keaton Weiss
+aliases: ["/2020/06/25/the-radical-pragmatism-of-defunding-the-police-w-peter-frase"]
+---
+
+Since the murder of George Floyd, a massive protest movement has sprouted in cities across America, large and small. Out of this uprising, a political demand has emerged: "defund the police." Simply put, police budgets should be cut, and money should be re-allocated in ways that help alleviate problems that we currently rely upon police to manage. These would include on-call mental health specialists, drug abuse intervention professionals, unarmed city employees to issue citations for minor traffic-related violations, and funding increases for social programs, housing, infrastructure, etc.
+
+Such messaging has been met with predictable hesitation by nervous white liberals who fear that the Right will [use the slogan of "defund the police" against them](https://www.foxnews.com/opinion/george-floyd-defund-police-crime-cory-mills) by fear mongering about how the "radical left" wants "anarchy" in the streets, and for "criminals to run wild." They worry that Republicans will exploit what they see as the [vagueness](https://www.theatlantic.com/ideas/archive/2020/06/what-does-defund-police-really-mean/612904/) of this message, and successfully weaponize it against the Democrats in the 2020 election.
+
+So far though, such reactionary backlash has not been particularly effective. In fact, [cities across America](https://www.bloomberg.com/news/articles/2020-06-09/the-cities-taking-up-calls-to-defund-the-police) are responding to these direct and uncompromising demands by slashing their police budgets and investing in social programs. Public opinion of the protests remains high, and Donald Trump's response to them continues to sink his poll numbers. So the liberals' handwringing over "defund the police" seems misguided. Perhaps their concerns were simply motivated by a defensive political posture (ie, maintaining Joe Biden's lead over Donald Trump in the polls). But given the liberal establishment's track record of applying Band-Aid solutions to systemic problems, as well as their reluctance to challenge the capitalist status quo that police are often tasked with enforcing, it's worth asking if there's something they're not telling us about their actual reason for opposing the "defund" rallying cry.
+
+In this podcast, Peter Frase returns to the show along with our long-lost founding co-host Richie Rosencrans to explore these questions. We discuss their activity in local protest demonstrations, how defunding the police fits into a broader class struggle, and why it's so threatening to the political establishment.
+
+Peter serves on the editorial board at Jacobin Magazine, is the author of the book [Four Futures: Life After Capitalism](https://www.versobooks.com/books/1847-four-futures), and an active member of [Mid Hudson Valley DSA.](https://www.facebook.com/mhvdsa/) You can listen to our full conversation below:
+
+Subscribe to the Due Dissidence podcast on [Apple,](https://podcasts.apple.com/us/podcast/due-dissidence/id1457244081)[Stitcher](https://www.stitcher.com/podcast/due-dissidence)[,](https://podcasts.apple.com/us/podcast/due-dissidence/id1457244081)[Spotify](https://open.spotify.com/show/3jDky0r8Cg0vlYuORwWhaE)[,](https://podcasts.apple.com/us/podcast/due-dissidence/id1457244081)[Castbox](https://castbox.fm/channel/Due-Dissidence%7D-id2086184?country=us)[,](https://podcasts.apple.com/us/podcast/due-dissidence/id1457244081) or any major podcast player

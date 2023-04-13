@@ -1,0 +1,29 @@
+---
+title: "Weak Jobs Numbers and a Crying Capitalist Class: Is This a De Facto General Strike?"
+Date: 2021-05-08T12:05:28+00:00
+author: Keaton Weiss
+aliases: ["/2021/05/08/weak-jobs-numbers-and-a-crying-capitalist-class-is-this-a-de-facto-general-strike"]
+image: img.jpeg
+---
+
+In the days and weeks after the coronavirus lockdowns began, many on the Left [called for a general strike](https://observer.com/2020/03/coronavirus-general-strike-notdying4wallstreet-american-economy/). What better time than now, we thought, to demand a more robust social safety net, and to withhold our labor until we get it?
+
+Hopeless romantics that we are, visions of picketing UAW workers and steel miners filled our heads as we imagined what could be. Wouldn't it be great if, in the face of a once-in-a-century crisis, America's workers could rise up en masse against their oppressors, and starve the system until it starts delivering for us?
+
+To no one's surprise but ours, such a thing never happened. Those put out of work by the pandemic went on unemployment, the professional managerial class worked off their laptops in their pajamas, and much of the true proletariat - "essential workers," as they've come to be known - simply continued on, business as usual, with cloth masks tied around their faces. There was no general strike, no uprising, no fundamental challenge to the status quo that rendered so many so hopeless in the first place.
+
+Now, however, over a year later, we've just seen the publishing of a [weak April jobs report](https://www.nytimes.com/2021/05/07/upshot/jobs-report-surprise.html) in which the economy added a mere 266,000 jobs despite a nationwide surge in vaccinations and a decline in covid cases. The unemployment rate ticked up to 6.1%. We're also seeing a business owners [large](https://www.foxnews.com/food-drink/mcdonalds-drive-thru-customer-savage-sign-no-one-wants-to-work) and [small](https://www.abc12.com/2021/04/08/chesaning-restaurants-social-media-no-one-wants-to-work-anymore-post-creates-buzz/) begin to complain that ["no one wants to work anymore,"](https://www.eater.com/22417344/restaurant-labor-shortage-covid-19-unemployment-benefits-risks) as they're having difficulty rehiring employees for their reopenings. This phenomenon particularly applies to the restaurant industry, where the federal minimum wage for tipped workers is \$2.13 per hour, but April's employment numbers suggest that this trend is more widespread than originally thought. 
+
+True, we never got the formal declaration of a coordinated mass action, nor have we seen a wave of labor activism sweep the country as we hoped it would. But we are seeing some of the basic dynamics of a strike begin to take shape: namely, workers choosing not to participate in the job market, and bosses bitching that young people are too spoiled, entitled, and lazy to agree to work for poverty wages. Job growth is stalling, [unemployment is rising](https://www.bls.gov/news.release/pdf/empsit.pdf), and the [government is feeling increased pressure to intervene](https://www.huffpost.com/entry/biden-economy-unemployment-benefits_n_609543aee4b0aead1b82d6ae?ncid=engmodushpmg00000003&fbclid=IwAR0VCmkAjuBDtG4ronZQhLaXwaolKgqwmbrvK80kO8LLEiC6KtOUNg23yUk).
+
+What all of this suggests is that perhaps we are seeing a de facto 21st century general strike led by millennials and Gen Zers. No marching, no picket lines, no inflatable rodents. Just a bunch of people who've decided they'd rather stay on unemployment than have their labor exploited by an increasingly piggish and petulant capitalist class. It's not what committed Leftists with dreams of recreating the 1970 Postal Workers' strike would have envisioned, but it's something. In the age of the internet, social media, and food delivery apps, this just might be what a modern general strike looks like: individual people just staying home and saying "Fuck it, I'm really not into working for $9 an hour anymore."
+
+The aesthetics are different, the organizing isn't there, and the political demands aren't as pointed as we on the Left would like them to be. But perhaps, for the time being, the rallying cry of the labor movement isn't *solidarity forever,* but rather, *pssht, whatever.* At a time when the Left can't even organize an Amazon warehouse in Alabama, this might be the best we can hope for in the short term.
+
+We're not seeing a true "movement" arise as we had wished, but we are seeing workers of all stripes simply choosing not to work for starvation wages, and an ownership class in meltdown mode over it. Most encouragingly, management's typical playbook of shaming, guilting, and bullying the working class into submission doesn't seem to be working. The topsy-turvy reality that many workers are making more money on unemployment than they would at their jobs is effectively demonstrating not the evils of government assistance, but the absurdity of a \$7.25 an hour minimum wage.
+
+In response to the April jobs report, the Biden administration stated that [more stimulus is necessary](https://www.huffpost.com/entry/biden-economy-unemployment-benefits_n_609543aee4b0aead1b82d6ae?ncid=engmodushpmg00000003&fbclid=IwAR0VCmkAjuBDtG4ronZQhLaXwaolKgqwmbrvK80kO8LLEiC6KtOUNg23yUk). We're seeing what might be the first effects of an organized strike start to take shape, just without the organizing. Maybe the workers of the world aren't uniting as we'd like them to, but they are staying home and withholding their labor from the capitalists who have been exploiting them far too much for far too long.
+
+This is a start. Is it enough? No. Is it too little too late? Probably. But a return to the pre-covid economy was never a viable option. And so for now, we should take some solace in a stubborned workforce and a crying capitalist class; it's progress of a kind.
+
+**Photo: twentytwowords.com**

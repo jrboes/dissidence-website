@@ -1,0 +1,19 @@
+---
+title: "Previewing and Predicting the Election, Red Pill and Blue Pill Style"
+Date: 2020-11-01T13:11:56+00:00
+author: Keaton Weiss
+aliases: ["/2020/11/01/previewing-and-predicting-the-election-red-pill-and-blue-pill-style"]
+image: 78f0f50285dd11bef4946bc47283e49281-pills-lede.rhorizontal.w700.jpg
+---
+
+According to [polling](https://www.realclearpolitics.com/elections/trump-vs-biden-top-battleground-states/), [betting markets](https://www.realclearpolitics.com/elections/betting_odds/2020_president/), and [professional oddsmakers](https://projects.fivethirtyeight.com/2020-election-forecast/?cid=rrpromo), Joe Biden is the clear favorite heading into Tuesday's election. He has Donald Trump spread very thin across the electoral map, leading in states like North Carolina, Florida, and Ohio, and within striking distance in even the traditionally red states of Georgia and Texas, which have not gone blue since 1992 and 1976, respectively.
+
+If this all sounds familiar, you could be thinking of 2016, when the same professional pollsters, analysts, and pundits predicted, in near uniformity, that Hillary Clinton was on track for a landslide victory. However, despite the media groupthink, there was good reason not to count Trump out in that race. Trump went into election night that year having secured practically all of [Mitt Romney's 206 electoral votes](https://www.270towin.com/2012_Election/), and with healthy polling leads in the states of Ohio and Iowa, which Obama won twice. This had Trump well-positioned for an upset victory, in that he only needed to win Florida, plus one of the upper-midwestern states of Michigan, Pennsylvania, Wisconsin, and Minnesota. As it turns out of course, he won Florida, plus *three* of the four "blue wall" states in the upper midwest, propelling him to an electoral vote total of 306. This time, however, Trump has to pull an inside straight just to win all of the Mitt Romney states from 2012. He's undoubtedly in a much weaker Electoral College position than in 2016.
+
+That's the "blue pill" version of the election forecast. Of course, 2020 isn't a blue pill kind of year, and this election is unlike any other in a variety of ways, mainly, that it's taking place amidst a raging pandemic that has altered tens of millions of people's voting habits. Early voting is through the roof, as is mail-in voting. Will ballots be received in time to be counted? If so, when will we get final counts? Will networks project state winners on election night, even without all mail-in ballots accounted for? Will there be a "red mirage" in which it appears, based on same-day vote totals, that Trump is winning, only to have Biden overtake him in the coming days, as mail-in votes are tallied? How will Trump respond to this? Will he declare victory prematurely?
+
+According to everything we know, it seems Biden is clearly favored to win. But in an election season with so many unknowns, it's difficult to be too confident an any particular outcome. We outline our election predictions in episode 94 of the Due Dissidence podcast. Listen to our full conversation by clicking the link below:
+
+Subscribe to the Due Dissidence podcast on [Apple,](https://podcasts.apple.com/us/podcast/due-dissidence/id1457244081)[Stitcher](https://www.stitcher.com/podcast/due-dissidence)[,](https://podcasts.apple.com/us/podcast/due-dissidence/id1457244081)[Spotify](https://open.spotify.com/show/3jDky0r8Cg0vlYuORwWhaE)[,](https://podcasts.apple.com/us/podcast/due-dissidence/id1457244081)[Castbox](https://castbox.fm/channel/Due-Dissidence%7D-id2086184?country=us)[,](https://podcasts.apple.com/us/podcast/due-dissidence/id1457244081) [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjYwNjI5Njg0NC9zb3VuZHMucnNz), or any major podcast player!
+
+**Photo: The Matrix, Warner Brothers**
