@@ -134,9 +134,19 @@ a:not(.btn, .nav-link) {
 .animate {
   position: absolute;
   animation: 120s credits linear infinite;
+  -webkit-animation: 120s credits linear infinite;
 }
 
 @keyframes credits {
+  from {
+    top: 100%;
+  }
+  to {
+    top: -650%;
+  }
+}
+
+@-webkit-keyframes credits {
   from {
     top: 100%;
   }
