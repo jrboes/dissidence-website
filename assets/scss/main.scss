@@ -122,6 +122,29 @@ a:not(.btn, .nav-link) {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
 }
 
+.supporters {
+  position: relative;
+  height: 800px;
+  overflow: hidden;
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.animate {
+  position: absolute;
+  animation: 120s credits linear infinite;
+}
+
+@keyframes credits {
+  from {
+    top: 100%;
+  }
+  to {
+    top: -650%;
+  }
+}
+
 footer {
   margin-top: auto;
 }

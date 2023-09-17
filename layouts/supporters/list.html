@@ -1,0 +1,33 @@
+{{ define "body" }}
+
+<div class="container banner">
+  <div class="row">
+    <h1 style="text-align:center;">{{ .Title  }}</h1>
+    &nbsp
+    <h2 style="text-align:center;">Subscribe at: duedissidence.com/sub</h2>
+  </div>
+</div>
+
+<div class="container-fluid bg-gold">
+  <div class="container supporters p-3">
+    <div class="animate">
+    <div class="row justify-content-center row-cols-1 row-cols-lg-3 g-4 mt-0 mb-4">
+      {{ range $.Site.Data }}
+      {{ range sort .patrons "value" "asc" }}
+      <div class="col">
+        {{ . }}
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+    </div>
+  </div>
+</div>
+&nbsp
+<h2 style="text-align:center;">Thank You!</h2>
+{{ end }}
+
+{{ define "javascript" }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+{{ end }}
