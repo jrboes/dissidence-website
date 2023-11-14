@@ -6,9 +6,6 @@ aliases: ["/2020/12/13/for-food-service-workers-during-covid-study-finds-harassm
 image: montrecc81al_waitress.jpg
 ---
 
-[Jerilyn Jordan](https://www.metrotimes.com/author/jerilyn-jordan), music editor for the *Detroit Metro Times*, recently [wrote an article](https://www.metrotimes.com/table-and-bar/archives/2020/12/07/the-worst-people-imaginable-are-dining-out-study-finds) citing a [study by One Fair Wage](https://onefairwage.site/wp-content/uploads/2020/11/OFW_COVID_WorkerExp_Emb-1.pdf) about food servers' experiences during the coronavirus pandemic. The title of the survey, *Take Off Your Mask So I Know How Much to Tip You*, ought to give you some idea about the nature of its findings. 
-
-The survey polled restaurant workers in five states, New York, New Jersey, Illinois, Massachusetts, and Pennsylvania, plus Washington, D.C.. As restaurants slowly underwent a phased re-opening for indoor dining, servers were forced to wait on tables of unmasked guests who, according to the numbers, are tipping worse than ever, and finding new perverse ways to harass them. 
 
 83% of workers say their tips are down, two thirds of whom say by more than 50%.
 
