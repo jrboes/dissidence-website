@@ -30,12 +30,10 @@
     {{ block "body" . }}
     <body>
         {{ block "navbar" .  }}
-        {{ partial "nav.html" }}
         {{ end }}
         {{ block "main" . }}
         {{ end }}
         {{ block "footer" .  }}
-        {{ partial "footer.html" . }}
         {{ end }}
         {{ block "javascript" . }}
         {{ end }}

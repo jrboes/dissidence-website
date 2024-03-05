@@ -1,5 +1,8 @@
-{{ define "main" }}
+{{ define "navbar" }}
+{{ partial "nav.html" }}
+{{ end }}
 
+{{ define "main" }}
 <!-- Banner -->
 <div class="container banner">
   <div class="container">
@@ -332,6 +335,10 @@
 
   </div>
 </div>
+{{ end }}
+
+{{ define "footer" }}
+{{ partial "footer.html" . }}
 {{ end }}
 
 {{ define "javascript" }}
