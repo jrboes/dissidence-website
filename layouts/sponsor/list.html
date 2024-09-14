@@ -1,0 +1,46 @@
+{{ define "navbar" }}
+{{ partial "nav.html" }}
+{{ end }}
+
+{{ define "main"}}
+<div class="container banner">
+  <div class="row g-4">
+    <h1 style="text-align:center;">{{ .Title }}</h1>
+  </div>
+</div>
+<div class="container-fluid bg-gold">
+  <div class="container p-3">
+    <div class="row gx-4 gy-2 align-items-center">
+      <div class="col-12">
+        {{ .Content }}
+      </div>
+
+      <div class="col-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="row justify-content-center">
+              <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSdvqB3Ut2aEzaBf0ZIMFu3ewi6a6r-zyLQ0aCSv8-Lvdb2QUQ/viewform?embedded=true"
+                width="640"
+                height="1350">
+                Loading...
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ define "footer" }}
+{{ partial "footer.html" . }}
+{{ end }}
+
+{{ define "javascript" }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+<script src="https://donorbox.org/widget.js" paypalExpress="true"></script>
+{{ end }}

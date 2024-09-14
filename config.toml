@@ -6,5 +6,5 @@ summaryLength = 30
 enableRobotsTXT = "true"
 ignoreErrors = ["error-remote-getjson"]
 [params]
-  description = "Political commentary, interviews, & satire."
+  description = "Post Duopoly Left"
   author = "Due Dissidence"
