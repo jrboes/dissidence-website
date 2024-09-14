@@ -1,5 +1,5 @@
 ---
-title: Sponsorship Request
+title: Sponsorships
 aliases: ["/sponsors"]
 ---
 
