@@ -23,6 +23,10 @@
         {{ $sassTemplate := resources.Get "scss/main.scss" }}
         {{ $style := $sassTemplate | resources.ExecuteAsTemplate "main.scss" . | resources.ToCSS | resources.Minify }}
         <link rel="stylesheet" href="{{ $style.Permalink }}">
+
+        <!-- Google AdSense -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5333155373318514"
+                crossorigin="anonymous"></script>
         {{ end }}
     </head>
     {{ end }}
