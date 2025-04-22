@@ -8,7 +8,7 @@ image: p20210806es-0009_51540625410.jpg
 
 In her December 6th press conference, White House Press Secretary Jen Psaki sarcastically mocked a reporter's suggestion to make Covid tests free of charge to whoever needs them. Instead, she described a convoluted scheme in which qualifying individuals would be able to seek reimbursement from their insurance companies after being tested, and implied it would be too expensive to simply provide them outright (watch the exchange below):
 
-{{< tweet user="mkarolian" id="1467959999645298697" >}}
+{{< x user="mkarolian" id="1467959999645298697" >}}
 
 This is the latest in a continuing series of examples which demonstrate the failure of neoliberalism to combat the coronavirus pandemic. 
 

@@ -11,7 +11,7 @@ After weeks of building up his forces in a way that screamed, "This is not a dri
 The sanctions from Western powers rolled in fast and furious, right alongside the obligatory dumb takes. Stephen King wasted no time bringing his own Master of Shitlibbery perspective to Twitter:
 
 
-{{< tweet user="StephenKing" id="1496303674267774984" >}}
+{{< x user="StephenKing" id="1496303674267774984" >}}
 
 Despite their posturing, it's hard to believe that even the most loyal of Biden's supporters honestly feel he's up to the task of mastering a wily opponent like Putin.
 

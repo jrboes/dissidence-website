@@ -14,7 +14,7 @@ That was Smalls' last day on the clock at Amazon. After that, he took it upon hi
 
 His story got national press, and he was therefore the subject of a [smear campaign](https://www.theverge.com/2020/4/2/21206108/amazon-chris-smalls-warehouse-strike-nyc-jay-carney-bernie-sanders-coronavirus-safety) orchestrated at the highest levels of Amazon, including Jeff Bezos himself, as well as former Obama press secretary Jay Carney, now senior VP at Amazon, who tweeted the following in response to Bernie Sanders' criticism of their handling of Smalls' case:
 
-{{< tweet user="JayCarney" id="1245474780746330119" >}}
+{{< x user="JayCarney" id="1245474780746330119" >}}
 
 The irony, which makes this Tweet especially Orwellian, is that Smalls' protest was specifically designed to achieve a safer workplace environment. To then fire him on the grounds that he "repeatedly violat[ed] social distancing rules" is beyond absurd.
 

@@ -24,7 +24,7 @@ During the general election, the Clinton campaign and its media allies [repeated
 
 In the interim weeks between Trump's election and inauguration, New Year's Eve 2016, Senators Lindsay Graham, John McCain, and Amy Klobuchar [traveled to a Ukrainian combat outpost](https://twitter.com/SenJohnMcCain/status/815232903948931073?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E815232903948931073%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.interpretermag.com%2Fday-1048%2F) to express their support for Ukraine against Russian aggression, and pledged that 2017 would be a "year of offense" (video below).
 
-{{< tweet user="michael_david41" id="1504130768120868870" >}}
+{{< x user="michael_david41" id="1504130768120868870" >}}
 
 The first two years of Trump's presidency were then overshadowed by the Mueller investigation, which liberals insisted would establish "collusion" (a deliberately vague term with no actual legal meaning) between the Trump campaign and Russia that would render their victory illegitimate. After two years of non-stop hype, the published findings produced no such result, though it [did provide evidence that Russians promoted Trump's candidacy and damaged Clinton's](https://www.acslaw.org/projects/the-presidential-investigation-education-project/other-resources/key-findings-of-the-mueller-report/).
 

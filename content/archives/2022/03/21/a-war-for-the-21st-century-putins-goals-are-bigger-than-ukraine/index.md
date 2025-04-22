@@ -56,7 +56,7 @@ On that score, [kicking Russian children out of the Paralympics](https://www.nbc
 
 No matter how the war turns out; whether Bloody Hillary gets her longed for Afghanistan Part Deux, with the Russians bogged down fighting an armed insurrection for years to come (unlikely); Russia and Ukraine come to an agreement over the next few weeks (much more likely); or some downed drone over Krakow sets off World War Three (I give it 50-50 odds), Putin will come out of this having achieved his overall strategic objective: to accelerate the decline of American power and influence.
 
-{{< tweet user="msnbc" id="1498490752065757184" >}}
+{{< x user="msnbc" id="1498490752065757184" >}}
 
 The non-Western world has been watching our moves closely and taking notes, drawing the obvious conclusion that as long as the dollar remains the world's reserve currency, Washington can always impose devastating sanctions on any nation that defies it's wishes. In response, the beginnings of an alternative economic system have been taking hold.
 

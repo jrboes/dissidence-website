@@ -12,7 +12,7 @@ Permitting student loans to continue as one of covid's most virulent variants de
 
 But the bad news didn't stop there. The cherry on top came courtesy of Speaker Nancy Pelosi, who [defiantly asserted her and her colleagues' rights to buy and sell stock](https://www.businessinsider.com/we-are-free-market-economy-pelosi-rejects-stock-ban-congress-2021-12), citing our "free market economy" as justification.
 
-{{< tweet user="atrupar" id="1471152961577439234" >}}
+{{< x user="atrupar" id="1471152961577439234" >}}
 
 This avalanche of self-inflicted wounds coming at a time when Democrats' midterm prospects are already historically dark and the economy is looking increasingly precarious as inflation soars and coronavirus surges. That a party with control of both chambers of Congress and the White House, elected precisely to provide relief and guidance through the pandemic, would portray this level of indifference about delivering on their most basic of promises, begs the question of whether or not at this point, they even want to remain in power.
 

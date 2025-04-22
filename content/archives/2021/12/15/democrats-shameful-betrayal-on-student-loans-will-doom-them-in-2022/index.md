@@ -16,7 +16,7 @@ Disgusting as it is, at least Biden's plan to restart student loan payments in F
 
 When Psaki was pressed on the issue this week, she responded by saying, "If Congress sends him a bill, he's happy to sign it. They haven't sent him a bill on that yet."
 
-{{< tweet user="TPostMillennial" id="1470842027449405443" >}}
+{{< x user="TPostMillennial" id="1470842027449405443" >}}
 
 Three things are made clear by this answer.
 

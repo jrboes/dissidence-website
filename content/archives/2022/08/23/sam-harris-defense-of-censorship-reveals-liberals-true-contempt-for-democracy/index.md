@@ -14,7 +14,7 @@ If this isn't Trump Derangement Syndrome, I don't know what is. Such a claim wou
 
 But Harris was just getting started. These deranged musings were merely the setup to his main point, which was that the [censoring of The New York Post's reporting on the Hunter Biden laptop](https://nypost.com/2021/10/12/one-year-later-the-posts-hunter-biden-reporting-is-vindicated-but-still-buried/) days before the 2020 election was justified. Harris granted that Twitter's suppression of the story under the [false pretense that it was Russian disinformation](https://www.google.com/search?q=biden+lapton+russian+disinformation&oq=biden+lapton+russian+disinformation&aqs=chrome..69i57.7437j0j4&sourceid=chrome&ie=UTF-8) was in essence a "conspiracy to deny the presidency to Donald Trump," but nonetheless insisted it was "warranted."
 
-{{< tweet user="ellymelly" id="1560211000552718336" >}}
+{{< x user="ellymelly" id="1560211000552718336" >}}
 
 The host then pressed him for clarification, after which Harris slightly walked back his "conspiracy" concession with one of his classic "thought experiments." He posed the question, "If there was an asteroid hurdling toward Earth, and we got in a room with all of our friends and talked about what we could do to deflect its course, is it a conspiracy?"
 

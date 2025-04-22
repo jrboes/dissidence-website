@@ -16,7 +16,7 @@ Joey's findings fly in the face of the growingly popular "no one wants to work a
 
 According to basic laws of economics, as demand for labor increases, so should its price. And while [wages have been on the rise overall](https://www.theguardian.com/business/2021/oct/10/us-small-businesses-wages-gene-marks), there are a significant number of business owners holding out, expecting and insisting that workers return to the job for the same paltry pre-pandemic pay rates. This explains why despite the abundance of "Now Hiring" signs appearing on storefronts throughout the country, many are still having a difficult time finding work. As 'Fight for \$15' posted on Twitter, a more honest rendering of these "no one wants to work" signs might look more like this:
 
-{{< tweet user="fightfor15" id="1391836846267592706" >}}
+{{< x user="fightfor15" id="1391836846267592706" >}}
 
 We reached out to Joey immediately after discovering his story, and he was kind enough to give us his first long-form interview for our podcast. In it, we discuss his life experience leading up to his now-famous "labor shortage" experiment, as well as his views on politics, labor, and the people-centered economy we should strive to create.
 

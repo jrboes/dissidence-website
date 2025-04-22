@@ -12,7 +12,7 @@ ICYMI, Whoopi Goldberg recently espoused perhaps the dumbest and most ignorant o
 
 When her co-hosts attempted to push back on this shockingly ludicrous claim, she re-asserted it a second, third, and fourth time, explaining that Nazis and Jews "are two white groups of people." The exchange can be watched in the video below.
 
-{{< tweet user="ForAmerica" id="1488199546803003396" >}}
+{{< x user="ForAmerica" id="1488199546803003396" >}}
 
 Now I never mistook Whoopi for the sharpest knife in the drawer. Remember, this is the woman who [aggressively asked Bernie Sanders if he intended to tax corporations](https://www.youtube.com/watch?v=OlcbDY5NNwk) if elected President as though she were grilling him on a topic that made him uncomfortable. 
 
@@ -24,7 +24,7 @@ She asked that question *to Bernie Sanders* with a straight face, and when he sa
 
 Stupid as that was, these recent Holocaust comments are on a whole other level. After making them, later in the day, she appeared on *The Late Show with Stephen Colbert* to further explain her position. Despite Colbert's attempts to help pull her out of the hole she dug herself into, she only kept digging:
 
-{{< tweet user="LeftismForU" id="1488456026550587392" >}}
+{{< x user="LeftismForU" id="1488456026550587392" >}}
 
 Finally, between the taping and the airing of the Colbert show, Goldberg tweeted out a formal apology, citing the Anti-Defamation League's Jonathan Greenblatt.
 
@@ -34,7 +34,7 @@ For an eighth grader not to know this would be concerning. For a high school stu
 
 Ben Shapiro, one of the last people on Earth I'd like to agree with, tweeted out a statement (only half correct) that had a conservative made this same point, they'd have been fired.
 
-{{< tweet user="benshapiro" id="1488496735618019336" >}}
+{{< x user="benshapiro" id="1488496735618019336" >}}
 
 Notice in that tweet, however, he mentions Reps. Rashida Tlaib and Ilhan Omar as if they could get away with making a similar statement, which we already know isn't true. Omar and Tlaib have taken repeated drubbings from [Democratic Party leadership](https://www.speaker.gov/newsroom/21119) and their [media spokespersons](https://www.washingtonpost.com/opinions/2021/08/09/rashida-tlaib-bigotry-antisemitism-trump-maga/) for simply affirming the humanity of Palestinians in the occupied territories, and would surely be driven out of politics if they had said that the Holocaust "wasn't about race."
 

@@ -21,19 +21,19 @@ This brings us to the legislative caste. Members of Congress are paid $174,000 p
 The Met Gala
 ------------
 
-{{< tweet user="therecount" id="1437567610380562434" >}}
+{{< x user="therecount" id="1437567610380562434" >}}
 
-{{< tweet user="ReutersShowbiz" id="1437571676041003008" >}}
+{{< x user="ReutersShowbiz" id="1437571676041003008" >}}
 
 These clips give us a blatant example of class collaboration. In the first clip, AOC identifies herself and her designer as members of the working class. Then in the second clip, AOC expresses that she wants to bring the conversation to all of the classes. But the class interests of the capitalist class are in direct opposition to those of the proletariat, so they do not deserve a seat at the table when any method of taking away their power is being discussed. This is not breaking the fourth wall, this is collaborating with the enemy and in fact playing along with the charade. These statements make AOC an easy target, but it is the entire system that feeds into this, not the actions of one individual.
 
 The Met Gala is an elite event whose gate is kept by a $30,000 ticket. It is an event that is only accessible to the financial elite or those sponsored by the financial elite. According to the **[Report on the Economic Well-Being of U.S. Households](https://www.federalreserve.gov/publications/2021-economic-well-being-of-us-households-in-2020-dealing-with-unexpected-expenses.htm),**only 64% of adults in the US could come up with an unexpected $400 expense in November of 2020. More than one fourth of adults were unable to pay all of their monthly bills in full. While the working class struggles, the elite are doing just fine. Billionaires gained 62% in their worth during the pandemic.
 
-{{< tweet user="4TaxFairness" id="1430151968740319232" >}}
+{{< x user="4TaxFairness" id="1430151968740319232" >}}
 
 Gains are not going to be made in the class struggle at the Met Gala. Having a conversation with the elite about taxing the rich is not the way to achieve an equitable society. While AOC was hobnobbing with the rich and famous, the scene on the street outside was very different.
 
-{{< tweet user="isabelle_leyva" id="1437594276054114312" >}}
+{{< x user="isabelle_leyva" id="1437594276054114312" >}}
 
 These protestors are some of the most oppressed by capitalism standing up against the ravages inflicted upon them by the ruling class. As Mayor Bill DiBlasio attended the gala, these Black Lives Matter protesters called for defunding the police. The NYPD budget for 2022 is[planned to be $5.44 billion](https://council.nyc.gov/budget/wp-content/uploads/sites/54/2021/05/NYPD.pdf). This is greater than the entire [defense budget of Chile](https://www.globalfirepower.com/defense-spending-budget.php). AOC could have stood with the protesters. She could have had a dress that said "Defund the Police" or "Abolish ICE." Instead, she chose one of the weakest slogans available. Taxing the rich is a good thing, but it does not fundamentally challenge the capitalist power structure.
 
@@ -43,11 +43,11 @@ These protestors are some of the most oppressed by capitalism standing up agains
 
 In this clip, AOC in somewhat vague terms indicates what she considers to be "rich." A huge problem today comes from a misunderstanding of what class is. Class is not wealth. Class is the relationship one has to the means of production. Does one own the means of production or does one work the means of production? Rather than educating her followers on this basic element of Marxist theory, AOC is attempting to circumvent this issue of class by defining "rich" as someone with hundreds of millions of dollars. When she says "Tax the rich," this is what she means. Rather than "Tax the rich" we should be crying "Expropriate the capitalist class!"
 
-{{< tweet user="AOC" id="1127270688925134849" >}}
+{{< x user="AOC" id="1127270688925134849" >}}
 
 By her own definition, she wants to tax "like 10 people." This is not some type of bold statement. This is not making the capitalist class uncomfortable. Rather it distracts from where the battle lines should be drawn - capitalist class vs. working class. Not nesting doll yacht rich vs. slightly less rich vs. less rich vs. wish they were rich. All capitalists have profited directly from exploitation of the working class. These are oppositional class interests, you do not collaborate with those who are directly opposed to you and expect to gain.
 
-{{< tweet user="LeeCamp" id="1437815310233526274" >}}
+{{< x user="LeeCamp" id="1437815310233526274" >}}
 
 Lee Camp has one of the best takes on this weak slogan of "Tax the Rich." This must be emphasized. Taxing the rich as part of a Democratic party approved plan to make incremental change is not going to save us from the ravages of capitalism. Rather than having a conversation about taxing the rich, we should be talking about class struggle and uniting the workers of the world.
 

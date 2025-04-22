@@ -1,16 +1,14 @@
 <div class="col">
   <div class="card h-100">
-    {{ if .Param "Image" }}
-    {{ $image := .Page.Resources.GetMatch .Params.Image }}
-    {{ $image := $image.Resize "411x231" }}
+
     <a href="{{ .Permalink }}">
-      <img class="card-img-top" src="{{ $image.Permalink }}">
+      {{ with .Page.Resources.GetMatch .Params.Image }}
+        <img class="card-img-top" src="{{ .Permalink }}">
+      {{ else }}
+        <img class="card-img-top" src="/img/header.png">
+      {{ end  }}
     </a>
-    {{ else }}
-    <a href="{{ .Permalink }}">
-      <img class="card-img-top" src="/img/header.png">
-    </a>
-    {{ end  }}
+
     <div class="card-body">
       <a href="{{ .Permalink }}">
         <h5 class="card-title">{{ .Title }}</h5>

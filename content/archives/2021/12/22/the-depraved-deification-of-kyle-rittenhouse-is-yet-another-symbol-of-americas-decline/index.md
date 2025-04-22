@@ -10,7 +10,7 @@ Since his acquittal, Kyle Rittenhouse has been on a high profile right wing medi
 
 As he took the stage, the packed audience chanted his name as his own custom-written theme song blared in the background - a rockstar entrance if ever there was one.
 
-{{< tweet user="Elex_Michaelson" id="1473106516903268355" >}}
+{{< x user="Elex_Michaelson" id="1473106516903268355" >}}
 
 Complete with pyrotechnics, a thumping soundtrack, adoring hordes of fans, and an American Flag graphic with the name 'Kyle' superimposed over it, this was a truly grotesque display of callousness, even by MAGA standards. And I say this as someone who still believes Rittenhouse's jury was correct in their decision to exonerate him. 
 

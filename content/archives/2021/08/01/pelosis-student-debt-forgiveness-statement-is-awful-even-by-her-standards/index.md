@@ -12,11 +12,11 @@ Instead, Pelosi began her response by dishonestly denying that Biden himself has
 
 Activist Jen Perelman was quick to point out the dishonesty of this statement, tweeting the following:
 
-{{< tweet user="JENFL23" id="1420445402080456708" >}}
+{{< x user="JENFL23" id="1420445402080456708" >}}
 
 More shockingly, however, Pelosi, after denying that Biden *could* cancel student loans unilaterally, she essentially made the case that he probably wouldn't even if he could. She continued, "On top of that, suppose your child decided at this time that they didn't want to go to college, but you're paying taxes to forgive somebody else's obligations. You may not be happy about that."
 
-{{< tweet user="anthonyzenkus" id="1420786292732960774" >}}
+{{< x user="anthonyzenkus" id="1420786292732960774" >}}
 
 As pointed out in the above Tweet, this is as right wing an argument as they come. After all, "paying taxes to forgive other people's obligations" is what makes all social welfare programs possible in the first place. Without it, there's no Medicare, Medicaid, or public schools - all programs Democrats seem keen to defend against "Republican attacks."
 

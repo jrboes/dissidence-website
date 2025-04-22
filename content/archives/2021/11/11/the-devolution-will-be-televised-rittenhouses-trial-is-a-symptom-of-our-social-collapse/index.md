@@ -10,23 +10,23 @@ Kyle Rittenhouse's homicide trial is the latest in a continuing series of high p
 
 His outburst quickly went viral online. Those on the Right rushed to his defense:
 
-{{< tweet user="LawnMower_mann" id="1458477785459089408" >}}
+{{< x user="LawnMower_mann" id="1458477785459089408" >}}
 
 And of course, the Left's response was far less charitable. Many accused Rittenhouse of faking his tears altogether, and expressed their feelings for him in rather uncompromising language:
 
-{{< tweet user="Back_dafucup" id="1458563626868953089" >}}
+{{< x user="Back_dafucup" id="1458563626868953089" >}}
 
-{{< tweet user="tommyxtopher" id="1458470593028935685" >}}
+{{< x user="tommyxtopher" id="1458470593028935685" >}}
 
 Meidas Touch, a popular online #resistance liberal opinion outlet, called Rittenhouse's meltdown an "Oscar-worthy performance" in their YouTube video retweeted over 3,000 times at this writing:
 
-{{< tweet user="MeidasTouch" id="1458618557835595778" >}}
+{{< x user="MeidasTouch" id="1458618557835595778" >}}
 
 Perhaps nothing symbolizes how this case has enflamed the already raging culture wars more than how both political camps drew parallels between the Rittenhouse trial and the infamous Brett Kavanaugh confirmation hearings of 2018:
 
-{{< tweet user="lavern_spicer" id="1458610787300298764" >}}
+{{< x user="lavern_spicer" id="1458610787300298764" >}}
 
-{{< tweet user="ddanpereira" id="1458651663686844416" >}}
+{{< x user="ddanpereira" id="1458651663686844416" >}}
 
 The Right and Left's predictably disparate reactions to this incident are among the latest and most palpable examples of our deteriorating social fabric. When the whole country can watch the same tape and respond this differently, it certainly creates the impression that the gulf between us is irreconcilable.
 
