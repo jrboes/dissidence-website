@@ -18,7 +18,7 @@ None of this is to say that covid's resilience is the fault of the Biden adminis
 
 But regardless of whether or not Biden bears sole responsibility for rampant coronavirus, the political truth remains that he was elected largely based on the premise, and the promise, that he had a strategy to control the outbreak.
 
-{{< tweet user="JoeBiden" id="1316894374500962305">}}
+{{< x user="JoeBiden" id="1316894374500962305">}}
 
 Now that he hasn't delivered the results, the American people, including his own Democratic base (the same new Pew poll shows Biden's overall approval rating at a miserable 68% among Democrat/lean Democrat voters), are quickly souring on him.
 

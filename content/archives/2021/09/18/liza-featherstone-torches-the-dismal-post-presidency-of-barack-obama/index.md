@@ -3,7 +3,6 @@ title: "Liza Featherstone Torches the Dismal Post-Presidency of Barack Obama"
 Date: 2021-09-18T12:09:15+00:00
 author: Keaton Weiss
 aliases: ["/2021/09/18/liza-featherstone-torches-the-dismal-post-presidency-of-barack-obama"]
-image: 640px-obama_president.jpg
 ---
 
 Liza Featherstone recently wrote an article for Jacobin entitled ["Barack Obama Has Been One of the Worst Ex-Presidents Ever."](http://Barack Obama Has Been One of the Worst Ex-Presidents Ever) In it, she argues that Obama's post-presidency has been "strikingly bereft of public-spiritedness," the most recent example of which was his opulent 60th birthday bash at his Martha's Vineyard mansion amidst surging Covid numbers.

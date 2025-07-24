@@ -1,33 +1,35 @@
-{{ define "body" }}
-
-<div class="container banner">
-  <div class="row">
-    <h1 style="text-align:center;">{{ .Title  }}</h1>
-    &nbsp
-    <h2 style="text-align:center;">Subscribe at: duedissidence.com/sub</h2>
+{{ define "main" }}
+  <div class="container banner">
+    <div class="row">
+      <h1 style="text-align:center;">{{ .Title  }}</h1>
+      &nbsp
+      <h2 style="text-align:center;">Subscribe at:<br>duedissidence.com/patreon<br>duedissidence.com/substack<br>duedissidence.com/locals</h2>
+    </div>
   </div>
-</div>
 
-<div class="container-fluid bg-gold">
-  <div class="container supporters p-3">
-    <div class="animate">
-    <div class="row justify-content-center row-cols-1 row-cols-lg-3 g-4 mt-0 mb-4">
-      {{ range $.Site.Data }}
-      {{ range sort .patrons "value" "asc" }}
-      <div class="col">
-        {{ . }}
+  <div class="container-fluid bg-gold">
+    <div class="container supporters p-3">
+      <div class="animate">
+      <div class="row justify-content-center row-cols-2 row-cols-lg-4 g-4 mt-0 mb-4">
+        {{ range $.Site.Data }}
+        {{ range sort .patrons "value" "asc" | uniq }}
+        <div class="col">
+          {{ . }}
+        </div>
+        {{ end }}
+        {{ end }}
       </div>
-      {{ end }}
-      {{ end }}
-    </div>
+      </div>
     </div>
   </div>
-</div>
-&nbsp
-<h2 style="text-align:center;">Thank You!</h2>
+  &nbsp
+  <h2 style="text-align:center;">Thank You!</h2>
 {{ end }}
 
 {{ define "javascript" }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
-<script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-compat/3.0.0-alpha1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+  {{ $built := resources.Get "js/supporterScroll.js" | js.Build }}
+  <script src="{{ $built.RelPermalink }}" defer></script>
 {{ end }}

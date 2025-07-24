@@ -1,6 +1,23 @@
 {{ define "head" }}
 <head>
-  <meta http-equiv="Refresh" content="0; URL={{ .Params.redirect }}" />
+  <meta charset="UTF-8">
+  {{- if .Params.javascriptRedirect -}}
+  <script type="text/javascript">
+   const urlParams = new URLSearchParams(window.location.search);
+   const slug = urlParams.get('s')
+   let urlRedirect = "{{ .Params.redirect }}"
+   if (slug !== null) {
+     urlRedirect = new URL(slug, urlRedirect).href
+     console.log(urlRedirect)
+   }
+   window.location.href = urlRedirect
+  </script>
+  {{- else -}}
+  <meta http-equiv="Refresh" content="0; URL={{ .Params.redirect }}">
+  <script type="text/javascript">
+   window.location.href = "{{ .Params.redirect }}"
+  </script>
+  {{- end -}}
 </head>
 {{ end }}
 

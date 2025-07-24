@@ -49,12 +49,12 @@ body {
   margin-left: auto;
   max-width: 1320px;
   h1 {
-    font-family: StylizedFont;
+    font-family: StylizedFont, serif;
     font-size: 60px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
   img {
-    padding: 0px;
+    padding: 0;
     box-shadow: 10px 10px 5px black;
   }
 }
@@ -80,7 +80,7 @@ a:not(.btn, .nav-link) {
 }
 
 .container-fluid {
-  box-shadow: 0px 5px 5px black;
+  box-shadow: 0 5px 5px black;
 }
 .bg-flax {
   background-color: var(--flax);
@@ -133,17 +133,7 @@ a:not(.btn, .nav-link) {
 
 .animate {
   position: absolute;
-  animation: 120s credits linear infinite;
-  -webkit-animation: 120s credits linear infinite;
-}
-
-@keyframes credits {
-  from {
-    top: 100%;
-  }
-  to {
-    top: -675%;
-  }
+  top: 800px;
 }
 
 footer {
@@ -183,7 +173,7 @@ blockquote{
   box-shadow: 5px 5px 5px black;
 
   &::before{
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     content: "\201C";
     color: var(--umber);
     font-size: 4em;

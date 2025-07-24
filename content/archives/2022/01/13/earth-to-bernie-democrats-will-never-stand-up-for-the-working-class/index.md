@@ -22,7 +22,7 @@ The Democrats are a ruling class party of ruling class leaders, ruling class don
 
 Even in the immediate aftermath of the killing of Build Back Better by "moderates" like Joe Manchin and Kyrsten Sinema, the party's centrist establishment is already warning progressives that they should "tamp down rhetoric" ahead of the midterms lest the Democrats be perceived as "too far left."
 
-{{< tweet user="thehill" id="1481230999581298691" >}}
+{{< x user="thehill" id="1481230999581298691" >}}
 
 And so Bernie's insistence that Democrats pivot in a more populist and progressive direction only serves to keep alive the false hope that such a maneuver is possible. Instead, the lifelong independent should accept that come January 2023, Democrats will be a minority party with virtually no power at the federal level, and that the path to a better future doesn't run through them, but through outside movements and burgeoning new parties. 
 

@@ -1,6 +1,10 @@
 ---
-url: "/merch"
+url: "/shop"
 sitemap_exclude: true
 robotsdisallow: true
-redirect: "https://duedissidence.creator-spring.com"
+redirect: "https://www.bonfire.com/store/due-dissidence/"
+aliases:
+- /merch
+- /store
+- /schmatte
 ---

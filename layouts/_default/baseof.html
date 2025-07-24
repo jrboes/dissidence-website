@@ -3,6 +3,17 @@
 
     {{ block "head" . }}
     <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7TJ3KWD370"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-7TJ3KWD370');
+        </script>
+
         <meta charset="utf-8">
         <meta name="description" content="{{ .Site.Params.Description }}">
         <meta name="keywords" content="Dissidence, Interviews, Humor, Commentary, Satire">
@@ -21,8 +32,12 @@
         {{ block "style" .  }}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
         {{ $sassTemplate := resources.Get "scss/main.scss" }}
-        {{ $style := $sassTemplate | resources.ExecuteAsTemplate "main.scss" . | resources.ToCSS | resources.Minify }}
+        {{ $style := $sassTemplate | resources.ExecuteAsTemplate "main.scss" . | css.Sass | resources.Minify }}
         <link rel="stylesheet" href="{{ $style.Permalink }}">
+
+        <!-- Google AdSense -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5333155373318514"
+                crossorigin="anonymous"></script>
         {{ end }}
     </head>
     {{ end }}
@@ -30,12 +45,10 @@
     {{ block "body" . }}
     <body>
         {{ block "navbar" .  }}
-        {{ partial "nav.html" }}
         {{ end }}
         {{ block "main" . }}
         {{ end }}
         {{ block "footer" .  }}
-        {{ partial "footer.html" . }}
         {{ end }}
         {{ block "javascript" . }}
         {{ end }}

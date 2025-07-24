@@ -1,9 +1,11 @@
 baseURL = "https://jacobboes.com"
 languageCode = "en-us"
 title = "Due Dissidence"
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 summaryLength = 30
 enableRobotsTXT = "true"
+ignoreErrors = ["error-remote-getjson"]
+ignoreLogs = ['shortcode-x-getremote']
 [params]
-  description = "Political commentary, interviews, & satire."
+  description = "Post Duopoly Left"
   author = "Due Dissidence"

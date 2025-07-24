@@ -1,5 +1,8 @@
-{{ define "main" }}
+{{ define "navbar" }}
+{{ partial "nav.html" }}
+{{ end }}
 
+{{ define "main" }}
 <div class="container banner">
   <div class="row">
     <h1 style="text-align:center;">{{ .Title  }}</h1>
@@ -15,6 +18,10 @@
     </div>
   </div>
 </div>
+{{ end }}
+
+{{ define "footer" }}
+{{ partial "footer.html" . }}
 {{ end }}
 
 {{ define "javascript" }}

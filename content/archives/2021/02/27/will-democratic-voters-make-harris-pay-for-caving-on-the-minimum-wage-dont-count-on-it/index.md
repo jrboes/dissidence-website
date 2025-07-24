@@ -12,7 +12,7 @@ Fast forward to this week, when Elizabeth MacDonough, the Senate parliamentarian
 
 Of course, this "ruling" by the "parliamentarian" is no ruling at all, but rather, a recommendation. [Kamala Harris, as Vice President, has the power to overrule her](https://www.rollingstone.com/politics/politics-news/democrats-15-dollar-minimum-wage-vp-harris-senate-1132695/). Several progressive organizations like [RootsAction](https://twitter.com/Roots_Action/status/1365151075465105413), [Our Revolution](https://twitter.com/OurRevolution/status/1365110413118078977), and the [Sunrise Movement](https://www.commondreams.org/newswire/2021/02/26/sunrise-movement-responds-15-min-wage-removal-reconciliation-process-demands), are urging her to do just that. However, word from the White House is that [she isn't going to](https://www.youtube.com/watch?v=4C4Jr3aw6is):
 
-{{< tweet user="JStein_WaPo" id="1365343142598303746" >}}
+{{< x user="JStein_WaPo" id="1365343142598303746" >}}
 
 Should she "weigh in" and overrule the parliamentarian, it would require a 60-vote majority to rebuke her. Since there's no possibility of 10 Senate Democrats breaking ranks, this would mean the minimum wage increase would be included in the $1.9 trillion coronavirus relief package. In this scenario, Democrats Joe Manchin and Kyrsten Sinema, who [both oppose a $15 minimum wage](https://www.newsweek.com/kyrsten-sinema-joins-joe-manchin-rebuking-15-minimum-wage-being-put-stimulus-dashing-1568931), would have to vote against the entire upcoming stimulus in order to vote against the minimum wage hike.
 
@@ -20,7 +20,7 @@ If the $15 minimum wage is not included in the relief package, it will likely fa
 
 This is why the aforementioned progressive groups, along with writers at outlets like [*Jacobin*](https://www.jacobinmag.com/2021/02/kamala-harris-15-minimum-wage-biden) and [*Common Dreams*](https://www.commondreams.org/views/2021/02/25/there-nothing-moderate-about-opposing-very-popular-15-minimum-wage), are demanding that Harris overrule the parliamentarian, who David Sirota rightly points out is [effectively an advisor to the vice president](https://twitter.com/davidsirota/status/1365170322257842180) in this case. Robert Reich put it especially pointedly:
 
-{{< tweet user="RBReich" id="1365165196721803266" >}}
+{{< x user="RBReich" id="1365165196721803266" >}}
 
 Good question. Of course, in his mind, he knows the answer - after all, he was among the most prominent progressives who made the case for voting Biden to oust Trump in 2020.
 

@@ -16,7 +16,7 @@ But even some progressives like [Qasim Rashid](https://twitter.com/QasimRashid) 
 
 And so why the hostility to the article, even from more left-leaning people who have, in the past, been willing to admit that economic anxieties were at least in part to blame for the rise of Donald Trump? Their sudden denial of such class dynamics suggests they are more invested in judging and condemning the Trump base than they are in understanding some of the underlying factors that motivate them. Rep. Ilhan Omar tweeted the following in response to the article:
 
-{{< tweet user="IlhanMN" id="1359556451954532354" >}}
+{{< x user="IlhanMN" id="1359556451954532354" >}}
 
 First, the piece she refers to neither "dismisses" nor "normalizes" white supremacy in any way whatsoever - it simply claims, and backs up with its research, that economic anxiety is a possible second explanation for what happened on January 6th. Second, Ilhan Omar has been one of the strongest advocates in Congress for working class voters, and, as Domenica Ghanem pointed out in her [great Newsweek op-ed](https://www.newsweek.com/ilhan-omar-fights-white-working-class-1451330), she has often fought for policies that would benefit *white* working class voters in particular (to name one specifically, she introduced a bill to prevent people from being evicted from their mobile homes). She seems to understand better than most that people in financial trouble don't feel they have much "status and power" to lose.
 
