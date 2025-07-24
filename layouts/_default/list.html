@@ -15,97 +15,48 @@
   </div>
 </div>
 
-<!-- Video -->
-<div class="container-fluid bg-flax" id="video">
+<!-- Writing -->
+<div class="container-fluid bg-gold" id="writing">
   <div class="container p-3">
 
     <div class="row gx-4">
-      <div class="col-12 col-sm-3">
-        <h2>Videos</h2>
+      <div class="col-3">
+        <h2>Articles</h2>
       </div>
-      <div class="col-12 col-sm-9 text-center text-md-end">
-        <a class="btn btn-outline-dark btn-floating m-1" href="https://www.youtube.com/@DueDissidence" role="button" title="YouTube">
-          <iconify-icon icon="simple-icons:youtube" height="24"></iconify-icon>
-        </a>
-        <a class="btn btn-outline-dark btn-floating m-1" href="https://rumble.com/duedissidence" role="button" title="Odysee">
-          <iconify-icon icon="simple-icons:rumble" height="24"></iconify-icon>
-        </a>
-        <a class="btn btn-outline-dark btn-floating m-1" href="https://www.twitch.tv/duedissidence" role="button" title="Twitch">
-          <iconify-icon icon="simple-icons:twitch" height="24"></iconify-icon>
-        </a>
-        <a class="btn btn-outline-dark btn-floating m-1" href="https://odysee.com/@duedissidence" role="button" title="Odysee">
-          <iconify-icon icon="simple-icons:odysee" height="24"></iconify-icon>
+
+      <div class="col-9 text-end">
+        <a class="btn btn-outline-dark btn-floating m-1" href="https://duedissidence.substack.com" role="button" title="Substack">
+          <iconify-icon icon="simple-icons:substack" height="24"></iconify-icon>
         </a>
       </div>
-      <p>We host live streams Thursdays 8pm and Sunday 7pm ET. Watch us here or on your favorite video streaming platform.</p>
+
+      {{ range ( where site.RegularPages "Section" "archives" | first 1 ) }}
+      {{ partial "article_cards_top.html" . }}
+      {{ end }}
+
     </div>
 
-    <div class="row g-4 justify-content-center">
-      <div class="col-12 col-lg-9">
-        <div class="video-container">
-          <iframe src="https://www.youtube.com/embed/videoseries?list=PL8RPLQX-IDX_czfperwWind2jRn3MU7jb"></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container p-3">
-  <div class="row g-4">
-
-    <div class="col-12">
-      <div class="card">
-        <div class="card-body text-center">
-          <h2 class="card-title">Contribute</h2>
-          <p class="card-text" style="font-size: 20px">This show is only possible with contributions from our viewers. Please consider helping us grow by supporting us on <a href="https://www.patreon.com/duedissidence" class="blink">Patreon</a>, <a href="https://duedissidence.substack.com/subscribe?coupon=402ab0ae" class="blink">Substack</a>, or <a href="https://www.paypal.com/donate?business=6FZ5ALG7YE8J4" class="blink">Paypal</a>!</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid bg-flax" id="video">
-  <div class="container p-3">
-    <div class="row g-2">
-      <div class="col-12 col-lg-6">
-        <div class="card h-100">
-          <div class="card-body">
-            <h2 class="card-title">Clips</h2>
-            <p class="card-text">Watch video segments from our live streams published at regular intervals.</p>
-          </div>
-          <div class="video-container shadow-none">
-            <iframe class="card-img-bottom" src="https://www.youtube.com/embed/videoseries?list=PL8RPLQX-IDX_7m0DFXqIbrWymlIzb2f9P" loading="lazy" ></iframe>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-lg-6">
-        <div class="card h-100">
-          <div class="card-body">
-            <h2 class="card-title">Interviews</h2>
-            <p class="card-text">Check out our interviews featuring workers, on the ground reporters, and fellow commentators.</p>
-          </div>
-          <div class="video-container shadow-none">
-            <iframe class="card-img-bottom" src="https://www.youtube.com/embed/videoseries?list=PL8RPLQX-IDX_4sNzWztY9ZA1dQoe5UoaM" loading="lazy" ></iframe>
-          </div>
-        </div>
-      </div>
-
+    <div class="row row-cols-1 row-cols-2 row-cols-md-4 g-4 mt-0">
+      {{ range ( where site.RegularPages "Section" "archives" | first 9 | last 8 ) }}
+      {{ partial "article_cards.html" . }}
+      {{ end }}
     </div>
 
   </div>
 </div>
 
-<!-- Contribute / Follow -->
-<div class="container p-3">
+<!-- Video / Contribute -->
+<div class="container p-3" id="video">
   <div class="row g-4">
 
     <div class="col-12 col-md-6">
       <div class="card h-100">
         <div class="card-body">
-          <h2 class="card-title">Get Notifications</h2>
-          <p class="card-text" style="margin-bottom:30px">Sign-up to our Substack and get regular announcements of our live streams and notifications of our new articles.</p>
-          <div id="custom-substack-embed" class="d-flex justify-content-center"></div>
+          <h2 class="card-title">Videos</h2>
+          <p>We typically stream live on 2pm Tuesdays, 12pm Thursdays, and 7pm Sunday ET. Watch us here or on your favorite video streaming platform.</p>
+        </div>
+        <div class="video-container shadow-none">
+          <iframe class="card-img-bottom" src="https://www.youtube.com/embed/videoseries?list=PL8RPLQX-IDX_czfperwWind2jRn3MU7jb" loading="lazy" ></iframe>
         </div>
       </div>
     </div>
@@ -113,6 +64,10 @@
     <div class="col-12 col-md-6">
       <div class="card h-100">
         <div class="card-body">
+
+          <h2 class="card-text mt-3">Contribute</h2>
+          <p class="card-text" style="font-size: 20px">This show is only possible with contributions from our viewers. Please consider helping us grow by supporting us on <a href="https://www.patreon.com/duedissidence" class="blink">Patreon</a>, <a href="https://duedissidence.substack.com/subscribe?coupon=402ab0ae" class="blink">Substack</a>, or <a href="https://www.paypal.com/donate?business=6FZ5ALG7YE8J4" class="blink">PayPal</a>!</p>
+
           <h2 class="card-title">Follow</h2>
           <p class="card-text">Stay up to date with our commentary by following us on social media.</p>
 
@@ -120,8 +75,8 @@
             <a class="btn btn-lg btn-outline-dark btn-floating m-1" href="https://www.facebook.com/duedissidence" role="button" title="Facebook">
               <iconify-icon icon="simple-icons:facebook"></iconify-icon>
             </a>
-            <a class="btn btn-lg  btn-outline-dark btn-floating m-1" href="https://twitter.com/duedissidence" role="button" title="Twitter">
-              <iconify-icon icon="simple-icons:twitter"></iconify-icon>
+            <a class="btn btn-lg  btn-outline-dark btn-floating m-1" href="https://x.com/duedissidence" role="button" title="Twitter">
+              <iconify-icon icon="simple-icons:x"></iconify-icon>
             </a>
             <a class="btn btn-lg btn-outline-dark btn-floating m-1" href="https://www.tiktok.com/@duedissidence" role="button" title="TikTok">
               <iconify-icon icon="simple-icons:tiktok"></iconify-icon>
@@ -132,114 +87,10 @@
           </div>
 
           <h2 class="card-text mt-3">Contact Us</h2>
-          <p class="card-text">Feel free to reach out with any questions or comments.</p>
-
-          <div class="d-grid gap-2 col-4 mx-auto">
-            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#contactForm">Send a Message</button>
-          </div>
-
-          <!-- Contact Form Popup -->
-          <div class="modal fade" id="contactForm" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h2 class="modal-title" id="exampleModalLabel">Contact Form</h2>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-
-                <div class="modal-body">
-
-                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfN86qcTXQ_H8sEva56c7yZOkwSyOYkF3K0OCaWCSDPQLwMcg/viewform?embedded=true"
-                          width="100%" height="620">Loading...
-                  </iframe>
-
-                  <p><br>Or, send us an <a href="mailto:duedissidence@gmail.com">email</a>.</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Contact Form Popup -->
+          <p class="card-text">Feel free to reach out with any questions or comments by <a href="mailto:duedissidence@gmail.com">email</a>.</p>
 
         </div>
       </div>
-    </div>
-
-  </div>
-</div>
-
-<!-- Writing -->
-<div class="container-fluid bg-gold" id="writing">
-  <div class="container p-3">
-
-    <div class="row gx-4">
-      <div class="col-3">
-        <h2>Articles & Updates</h2>
-      </div>
-
-      <div class="col-9 text-end">
-        <a class="btn btn-outline-dark btn-floating m-1" href="https://duedissidence.substack.com" role="button" title="Substack">
-          <iconify-icon icon="simple-icons:substack" height="24"></iconify-icon>
-        </a>
-      </div>
-
-      <p>For our most recent stories check out our Substack, and sign up for <a href="https://duedissidence.substack.com/subscribe?coupon=402ab0ae">premium</a> content.</p>
-      <div class="card">
-        <div class="card-body">
-          <div id="substack-feed-embed"></div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<div class="container p-3" id="contribute">
-  <div class="row g-4">
-
-    <div class="col-12 col-md-6">
-      <div class="card h-100">
-        <div class="card-body">
-          <h2 class="card-title">Subscribe</h2>
-          <p class="card-text">Support our work on Patreon and receive access to exclusive content for as little as $5 a month!</p>
-        </div>
-        <a class="btn btn-lg border-0 btn-outline-dark btn-floating m-1" href="https://www.patreon.com/duedissidence" role="button" title="Subscribe on Patreon!">
-          <iconify-icon icon="simple-icons:patreon" height="50"></iconify-icon>
-        </a>
-      </div>
-    </div>
-
-    <div class="col-12 col-md-6">
-      <div class="card h-100">
-        <div class="card-body">
-          <h2 class="card-title">Donate</h2>
-          <p class="card-text">To make a donation via PayPal or credit card, click below.</p>
-        </div>
-        <a class="btn btn-lg border-0 btn-outline-dark btn-floating m-1" href="https://www.paypal.com/donate?business=6FZ5ALG7YE8J4" role="button" title="Donate on PayPal!">
-          <iconify-icon icon="simple-icons:paypal" height="50"></iconify-icon>
-        </a>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<div class="container-fluid bg-gold">
-  <div class="container p-3">
-
-    <div class="row gx-4">
-      <div class="col-12 col-sm-3">
-        <h2>Archives</h2>
-      </div>
-
-      <div class="col-12 col-sm-9 text-center text-sm-end">
-        <a class="btn btn-dark" href="archives" style="width: 250px;">Search Archives</a>
-      </div>
-    </div>
-    <div class="row row-cols-1 row-cols-lg-3 g-4 mt-0">
-      {{ range ( where site.RegularPages "Section" "archives" | first 3 ) }}
-      {{ partial "archive_cards.html" . }}
-      {{ end }}
     </div>
 
   </div>
@@ -253,29 +104,13 @@
         <h2>Podcasts</h2>
       </div>
       <div class="col-12 col-md-9 text-center text-md-end">
-        <a class="btn btn-outline-dark btn-floating m-1" href="https://open.spotify.com/show/3jDky0r8Cg0vlYuORwWhaE" role="button" title="Spotify">
-          <iconify-icon icon="simple-icons:spotify" height="24"></iconify-icon>
-        </a>
         <a class="btn btn-outline-dark btn-floating m-1" href="https://podcasts.apple.com/us/podcast/id1457244081" role="button" title="Apple Podcasts">
           <iconify-icon icon="ph:apple-podcasts-logo" height="24"></iconify-icon>
-        </a>
-        <a class="btn btn-outline-dark btn-floating m-1" href="https://soundcloud.com/duedissidence" role="button" title="SoundCloud">
-          <iconify-icon icon="simple-icons:soundcloud" height="24"></iconify-icon>
-        </a>
-        <a class="btn btn-outline-dark btn-floating m-1" href="https://podcasts.google.com/feed/aHR0cHM6Ly9hcGkuc3Vic3RhY2suY29tL2ZlZWQvcG9kY2FzdC82MTY2OTEucnNz" role="button" title="Google Podcasts">
-          <iconify-icon icon="ph:google-podcasts-logo" height="24"></iconify-icon>
-        </a>
-        <a class="btn btn-outline-dark btn-floating m-1" href="https://tunein.com/podcasts/News--Politics-Podcasts/Due-Dissidence-p1225576" role="button" title="TuneIn">
-          <iconify-icon icon="simple-icons:tunein" height="24"></iconify-icon>
-        </a>
-        <a class="btn btn-outline-dark btn-floating m-1" href="https://www.stitcher.com/show/due-dissidence" role="button" title="Stitcher">
-          <iconify-icon icon="simple-icons:stitcher" height="24"></iconify-icon>
         </a>
         <a class="btn btn-outline-dark btn-floating m-1" href="https://castbox.fm/channel/4969436" role="button" title="Castbox">
           <iconify-icon icon="simple-icons:castbox" height="24"></iconify-icon>
         </a>
       </div>
-      <p>Listen along on a multitude of popular podcast platforms.</p>
       <div class="card">
         <div class="card-body">
           <iframe src="https://castbox.fm/app/castbox/player/id4969436?v=8.22.11&autoplay=0" loading="lazy"  width="100%" height="500"></iframe>
@@ -285,7 +120,7 @@
   </div>
 </div>
 
-<!-- About & Support -->
+<!-- About -->
 <div class="container p-3" id="about">
   <div class="row g-4">
 
@@ -300,7 +135,7 @@
             <br><br>
             We are a completely independent outlet, and so support on Patreon and/or Substack is much appreciated.
             <br><br>
-            To get in touch with us for questions, comments, feedback, or press inquiries, send us an email at <a href="mailto:duedissidence@gmail.com">duedissidence@gmail.com</a>.
+            To get in touch with us for questions, comments, feedback, or press inquiries, email us at <a href="mailto:duedissidence@gmail.com">duedissidence@gmail.com</a>.
         </div>
       </div>
     </div>

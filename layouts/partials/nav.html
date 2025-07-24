@@ -37,31 +37,40 @@
 
       <div class="collapse navbar-collapse justify-content-end text-end align-self-start" id="collapsibleNavbar">
         <ul class="navbar-nav">
+
+          {{- $page := site.GetPage page.Section }}
+          {{- range site.Menus.main }}
           <li class="nav-item">
-            <a class="nav-link" href='{{ "#video" | relURL }}'>Videos</a>
+            <a class="nav-link" href='{{ or .URL .PageRef }}'>{{- .Name }}</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Articles</a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href='{{ "#writing" | relURL }}'>Current</a></li>
-              <li><a class="dropdown-item" href='{{ "archives" | relURL }}'>Archives</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href='{{ "#audio" | relURL }}'>Podcasts</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href='{{ "#contribute" | relURL }}'>Contribute</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href='{{ "shop" | relURL }}'>Shop</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href='{{ "sponsor" | relURL }}'>Sponsor</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href='{{ "#about" | relURL }}'>About</a>
-          </li>
+          {{- end }}
+
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link" href='{{ "#video" | relURL }}'>Videos</a>-->
+<!--          </li>-->
+<!--          <li class="nav-item dropdown">-->
+<!--            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Articles</a>-->
+<!--            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">-->
+<!--              <li><a class="dropdown-item" href='{{ "#writing" | relURL }}'>Current</a></li>-->
+<!--              <li><a class="dropdown-item" href='{{ "archives" | relURL }}'>Archives</a></li>-->
+<!--            </ul>-->
+<!--          </li>-->
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link" href='{{ "#audio" | relURL }}'>Podcasts</a>-->
+<!--          </li>-->
+<!--          <li class="nav-item dropdown">-->
+<!--            <a class="nav-link" href='{{ "#contribute" | relURL }}'>Contribute</a>-->
+<!--          </li>-->
+<!--          <li class="nav-item dropdown">-->
+<!--            <a class="nav-link" href='{{ "shop" | relURL }}'>Shop</a>-->
+<!--          </li>-->
+<!--          <li class="nav-item dropdown">-->
+<!--            <a class="nav-link" href='{{ "sponsor" | relURL }}'>Sponsor</a>-->
+<!--          </li>-->
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link" href='{{ "#about" | relURL }}'>About</a>-->
+<!--          </li>-->
+<!--          -->
         </ul>
       </div>
 
