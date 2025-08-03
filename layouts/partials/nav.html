@@ -43,7 +43,7 @@
         {{- $page := site.GetPage page.Section }}
         {{- range site.Menus.main }}
         <li class="nav-item">
-          <a class="nav-link" href='{{ or .URL .PageRef }}'>{{- .Name }}</a>
+          <a class="nav-link" href='{{ or .URL .PageRef | relURL }}'>{{- .Name }}</a>
         </li>
         {{- end }}
       </ul>
