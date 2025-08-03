@@ -2,8 +2,10 @@ baseURL = "https://duedissidence.com"
 languageCode = "en-us"
 title = "Due Dissidence"
 disableKinds = ["taxonomy"]
-summaryLength = 300
+summaryLength = 250
 enableRobotsTXT = "true"
+[markup.goldmark.renderer]
+unsafe= true
 [params]
   description = "Post Duopoly Left"
   author = "Due Dissidence"
@@ -17,7 +19,7 @@ enableRobotsTXT = "true"
     pageRef = '/#video'
     weight = 20
   [[menus.main]]
-    name = 'Podcasts'
+    name = 'Podcast'
     pageRef = '/#audio'
     weight = 30
   [[menus.main]]

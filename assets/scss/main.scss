@@ -25,15 +25,6 @@ body {
   max-height: 50px;
 }
 
-.navbar-brand {
-  transition: transform .2s ease-in-out;
-  transform-origin: top left;
-  border-radius: 50% / 50%;
-  img {
-    border-radius: 50% / 50%;
-    border: 3px solid black;
-  }
-}
 
 .banner {
   padding-top: 20px;
@@ -48,11 +39,11 @@ body {
     padding: 0;
     box-shadow: 10px 10px 5px black;
   }
-}
-
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
+  .logo {
+    img {
+      box-shadow: none;
+    }
+  }
 }
 
 a:not(.btn, .nav-link) {
@@ -82,7 +73,7 @@ a:not(.btn, .nav-link) {
 
 .card {
   border-radius: 10px;
-  background: $color-light;
+  background: white;
   border: 2px solid $color-med;
   box-shadow: 5px 5px 5px black;
 }
@@ -117,7 +108,7 @@ a:not(.btn, .nav-link) {
   position: relative;
   height: 800px;
   overflow: hidden;
-  font-size: 20px;
+  font-size: 26px;
   text-align: center;
   text-transform: capitalize;
 }
@@ -174,5 +165,31 @@ blockquote{
   }
   &::after{
     content: '';
+  }
+}
+
+.captioned-button-wrap {
+  display: block;
+  margin: 1em auto;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 600px;
+
+  .button.primary,
+  a.button.primary {
+    display: inline-block;
+    padding: 0.7em 2em;
+    font-size: 1em;
+    border-radius: 24px;
+    background: $color-med;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 600;
+
+    &:hover {
+      background: darken($color-med, 20%);
+      color: #fff;
+      text-decoration: none;
+    }
   }
 }

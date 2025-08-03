@@ -5,7 +5,7 @@
       {{ with .Page.Resources.GetMatch .Params.Image }}
         <img class="card-img-top" src="{{ .Permalink }}">
       {{ else }}
-        <img class="card-img-top" src="/img/header.png">
+        <img class="card-img-top" src="{{ .Params.Image }}">
       {{ end  }}
     </a>
 
@@ -14,7 +14,6 @@
         <h5 class="card-title">{{ .Title }}</h5>
       </a>
       <p class="card-text"><b>{{ .Params.Author }}</b></p>
-
 
     </div>
     <div class="card-footer">

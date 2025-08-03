@@ -7,8 +7,10 @@
 <div class="container banner">
   <div class="container">
     <div class="row align-items-center text-center" style="min-height: 150px;">
-      <div class="col-12 col-lg-4"></div>
-      <div class="col-12 col-lg-8">
+      <div class="logo col-4">
+        <img src='{{ "img/logo.png" | relURL }}' width="140px" alt="Due Dissidence.">
+      </div>
+      <div class="col-8">
         <h1>{{ .Site.Params.description }}</h1>
       </div>
     </div>
@@ -19,25 +21,47 @@
 <div class="container-fluid bg-gold" id="writing">
   <div class="container p-3">
 
+      <div class="row gx-4">
+        {{ range ( where site.RegularPages "Section" "articles" | first 1 ) }}
+        {{ partial "article_cards_top.html" . }}
+        {{ end }}
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="container p-3">
+  <div class="row g-4">
+
+    <div class="col-12">
+      <div class="card">
+        <div class="card-body text-center">
+          <h2 class="card-title">Subscribe on Substack</h2>
+          <div id="custom-substack-embed" class="d-flex justify-content-center"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-gold">
+  <div class="container p-3">
+
     <div class="row gx-4">
       <div class="col-3">
         <h2>Articles</h2>
       </div>
 
-      <div class="col-9 text-end">
+      <div class="col-9 text-end text-md-end">
         <a class="btn btn-outline-dark btn-floating m-1" href="https://duedissidence.substack.com" role="button" title="Substack">
           <iconify-icon icon="simple-icons:substack" height="24"></iconify-icon>
         </a>
       </div>
-
-      {{ range ( where site.RegularPages "Section" "archives" | first 1 ) }}
-      {{ partial "article_cards_top.html" . }}
-      {{ end }}
-
     </div>
 
-    <div class="row row-cols-1 row-cols-2 row-cols-md-4 g-4 mt-0">
-      {{ range ( where site.RegularPages "Section" "archives" | first 9 | last 8 ) }}
+    <div class="row row-cols-1 row-cols-2 row-cols-lg-4 g-4 mt-0">
+      {{ range ( where site.RegularPages "Section" "articles" | first 9 | last 8 ) }}
       {{ partial "article_cards.html" . }}
       {{ end }}
     </div>
@@ -49,7 +73,7 @@
 <div class="container p-3" id="video">
   <div class="row g-4">
 
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-lg-6">
       <div class="card h-100">
         <div class="card-body">
           <h2 class="card-title">Videos</h2>
@@ -61,7 +85,7 @@
       </div>
     </div>
 
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-lg-6">
       <div class="card h-100">
         <div class="card-body">
 
@@ -99,11 +123,13 @@
 <!-- Audio -->
 <div class="container-fluid bg-flax" id="audio">
   <div class="container p-3">
+
     <div class="row gx-4">
-      <div class="col-12 col-md-3">
-        <h2>Podcasts</h2>
+      <div class="col-3">
+        <h2>Podcast</h2>
       </div>
-      <div class="col-12 col-md-9 text-center text-md-end">
+
+      <div class="col-9 text-end text-md-end">
         <a class="btn btn-outline-dark btn-floating m-1" href="https://podcasts.apple.com/us/podcast/id1457244081" role="button" title="Apple Podcasts">
           <iconify-icon icon="ph:apple-podcasts-logo" height="24"></iconify-icon>
         </a>
@@ -111,12 +137,14 @@
           <iconify-icon icon="simple-icons:castbox" height="24"></iconify-icon>
         </a>
       </div>
-      <div class="card">
-        <div class="card-body">
-          <iframe src="https://castbox.fm/app/castbox/player/id4969436?v=8.22.11&autoplay=0" loading="lazy"  width="100%" height="500"></iframe>
-        </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <iframe src="https://castbox.fm/app/castbox/player/id4969436?v=8.22.11&autoplay=0" loading="lazy"  width="100%" height="500"></iframe>
       </div>
     </div>
+
   </div>
 </div>
 
@@ -155,7 +183,7 @@
 <script>
  window.CustomSubstackWidget = {
    substackUrl: "duedissidence.substack.com",
-   placeholder: "example@gmail.com",
+   placeholder: "me@gmail.com",
    buttonText: "\u2713",
    theme: "custom",
    colors: {
@@ -166,32 +194,20 @@
    }
  };
 </script>
-<script src="https://substackapi.com/embeds/feed.js" async></script>
-<script>
- window.SubstackFeedWidget = {
-   substackUrl: "duedissidence.substack.com",
-   posts: 3,
-   colors: {
-     primary: "#404040",
-     secondary: "#404040",
-     background: "#A6646400",
-   }
- };
-</script>
-<script>
- window.onscroll = function() {resizeLogo()};
- window.onresize = function() {resizeLogo()};
- document.addEventListener("DOMContentLoaded", resizeLogo);
- function resizeLogo() {
-   if (screen.width >= 992) {
-     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-       document.getElementById("logo").style.transform = "scale(1.0)";
-     } else {
-       document.getElementById("logo").style.transform = "scale(2.0)";
-     }
-   } else {
-     document.getElementById("logo").style.transform = "scale(1.0)";
-   }
- }
-</script>
+<!--<script>-->
+<!-- window.onscroll = function() {resizeLogo()};-->
+<!-- window.onresize = function() {resizeLogo()};-->
+<!-- document.addEventListener("DOMContentLoaded", resizeLogo);-->
+<!-- function resizeLogo() {-->
+<!--   if (screen.width >= 992) {-->
+<!--     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {-->
+<!--       document.getElementById("logo").style.transform = "scale(1.0)";-->
+<!--     } else {-->
+<!--       document.getElementById("logo").style.transform = "scale(2.0)";-->
+<!--     }-->
+<!--   } else {-->
+<!--     document.getElementById("logo").style.transform = "scale(1.0)";-->
+<!--   }-->
+<!-- }-->
+<!--</script>-->
 {{ end }}

@@ -4,7 +4,7 @@
       <div class="col-12 col-sm-5 text-center text-md-start">
         <section>
           <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/duedissidence" role="button"><iconify-icon icon="simple-icons:facebook"></iconify-icon></a>
-          <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/duedissidence" role="button"><iconify-icon icon="simple-icons:twitter"></iconify-icon></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://x.com/duedissidence" role="button"><iconify-icon icon="simple-icons:x"></iconify-icon></a>
           <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/@DueDissidence" role="button"><iconify-icon icon="simple-icons:youtube"></iconify-icon></a>
           <a class="btn btn-outline-light btn-floating m-1" href="https://duedissidence.substack.com" role="button"><iconify-icon icon="simple-icons:substack"></iconify-icon></a>
         </section>
@@ -23,57 +23,30 @@
   </div>
 </div>
 
-<div class="container-fluid bg-dark sticky-top">
-  <nav class="navbar navbar-expand-sm navbar-dark align-items-start">
-    <div class="container">
+<nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark justify-content-end">
+  <div class="container">
 
-      <a class="navbar-brand" id="logo" href='{{ "#home" | relURL }}'>
-        <img src='{{ "img/logo.png" | relURL }}' width="100px" alt="Due Dissidence.">
-      </a>
+  <a class="navbar-brand" href='{{ "#" | relURL }}'>
+    <h2 style="color:white">Due Dissidence</h2>
+  </a>
 
-      <button class="navbar-toggler align-self-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <button aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation" class="navbar-toggler"
+          data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"
+          type="button">
+      <span class="navbar-toggler-icon"></span>
+  </button>
 
-      <div class="collapse navbar-collapse justify-content-end text-end align-self-start" id="collapsibleNavbar">
-        <ul class="navbar-nav">
+    <div class="collapse navbar-collapse justify-content-end navbar-dark bg-dark" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-auto mb-2 mt-lg-0">
 
-          {{- $page := site.GetPage page.Section }}
-          {{- range site.Menus.main }}
-          <li class="nav-item">
-            <a class="nav-link" href='{{ or .URL .PageRef }}'>{{- .Name }}</a>
-          </li>
-          {{- end }}
-
-<!--          <li class="nav-item">-->
-<!--            <a class="nav-link" href='{{ "#video" | relURL }}'>Videos</a>-->
-<!--          </li>-->
-<!--          <li class="nav-item dropdown">-->
-<!--            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Articles</a>-->
-<!--            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">-->
-<!--              <li><a class="dropdown-item" href='{{ "#writing" | relURL }}'>Current</a></li>-->
-<!--              <li><a class="dropdown-item" href='{{ "archives" | relURL }}'>Archives</a></li>-->
-<!--            </ul>-->
-<!--          </li>-->
-<!--          <li class="nav-item">-->
-<!--            <a class="nav-link" href='{{ "#audio" | relURL }}'>Podcasts</a>-->
-<!--          </li>-->
-<!--          <li class="nav-item dropdown">-->
-<!--            <a class="nav-link" href='{{ "#contribute" | relURL }}'>Contribute</a>-->
-<!--          </li>-->
-<!--          <li class="nav-item dropdown">-->
-<!--            <a class="nav-link" href='{{ "shop" | relURL }}'>Shop</a>-->
-<!--          </li>-->
-<!--          <li class="nav-item dropdown">-->
-<!--            <a class="nav-link" href='{{ "sponsor" | relURL }}'>Sponsor</a>-->
-<!--          </li>-->
-<!--          <li class="nav-item">-->
-<!--            <a class="nav-link" href='{{ "#about" | relURL }}'>About</a>-->
-<!--          </li>-->
-<!--          -->
-        </ul>
-      </div>
-
+        {{- $page := site.GetPage page.Section }}
+        {{- range site.Menus.main }}
+        <li class="nav-item">
+          <a class="nav-link" href='{{ or .URL .PageRef }}'>{{- .Name }}</a>
+        </li>
+        {{- end }}
+      </ul>
     </div>
-  </nav>
-</div>
+  </div>
+</nav>
