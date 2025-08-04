@@ -111,7 +111,7 @@
           </div>
 
           <h2 class="card-text mt-3">Contact Us</h2>
-          <p class="card-text">Feel free to reach out with any questions or comments by <a href="mailto:duedissidence@gmail.com">email</a>.</p>
+          <p class="card-text">Feel free to reach out with any questions or comments by <a href="mailto:{{ .Site.Params.email }}">email</a>.</p>
 
         </div>
       </div>
@@ -163,7 +163,7 @@
             <br><br>
             We are a completely independent outlet, and so support on Patreon and/or Substack is much appreciated.
             <br><br>
-            To get in touch with us for questions, comments, feedback, or press inquiries, email us at <a href="mailto:duedissidence@gmail.com">duedissidence@gmail.com</a>.
+            To get in touch with us for questions, comments, feedback, or press inquiries, email us at <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>.
         </div>
       </div>
     </div>
@@ -194,20 +194,4 @@
    }
  };
 </script>
-<!--<script>-->
-<!-- window.onscroll = function() {resizeLogo()};-->
-<!-- window.onresize = function() {resizeLogo()};-->
-<!-- document.addEventListener("DOMContentLoaded", resizeLogo);-->
-<!-- function resizeLogo() {-->
-<!--   if (screen.width >= 992) {-->
-<!--     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {-->
-<!--       document.getElementById("logo").style.transform = "scale(1.0)";-->
-<!--     } else {-->
-<!--       document.getElementById("logo").style.transform = "scale(2.0)";-->
-<!--     }-->
-<!--   } else {-->
-<!--     document.getElementById("logo").style.transform = "scale(1.0)";-->
-<!--   }-->
-<!-- }-->
-<!--</script>-->
 {{ end }}

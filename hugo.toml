@@ -5,9 +5,10 @@ disableKinds = ["taxonomy"]
 summaryLength = 250
 enableRobotsTXT = "true"
 [markup.goldmark.renderer]
-unsafe= true
+  unsafe= true
 [params]
   description = "Post Duopoly Left"
+  email = "duedissidence@gmail.com"
   author = "Due Dissidence"
 [menus]
   [[menus.main]]
