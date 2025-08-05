@@ -7,7 +7,7 @@ enableRobotsTXT = "true"
 [markup.goldmark.renderer]
   unsafe= true
 [params]
-  description = "Post Duopoly Left"
+  description = "Post Duopoly Left Media"
   email = "duedissidence@gmail.com"
   author = "Due Dissidence"
 [menus]

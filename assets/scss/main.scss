@@ -22,9 +22,19 @@ body {
 
 .navbar {
   font-size: 20px;
-  max-height: 50px;
-}
 
+  //max-height: 50px;
+  a.navbar-brand {
+    display: inline-flex;
+    align-items: center;
+    h2 {
+      margin: 0px;
+    }
+    img {
+      margin-right: 10px;
+    }
+  }
+}
 
 .banner {
   padding-top: 20px;
