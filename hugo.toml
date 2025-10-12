@@ -1,4 +1,4 @@
-baseURL = "https://jacobboes.com"
+baseURL = "https://duedissidence.com"
 languageCode = "en-us"
 title = "Due Dissidence"
 disableKinds = ["taxonomy"]
@@ -9,3 +9,6 @@ ignoreLogs = ['shortcode-x-getremote']
 [params]
   description = "Post Duopoly Left"
   author = "Due Dissidence"
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
