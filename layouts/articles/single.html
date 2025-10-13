@@ -4,19 +4,14 @@
 
 {{ define "main" }}
 
-<div class="container banner">
+<div class="container bg-flax banner">
   <div class="row g-4">
-    {{ if .Params.Image }}
-    <img src="{{ .Params.Image }}">
-    {{ else }}
-    <img src="/img/header.png">
-    {{ end }}
     <h2>{{ .Title  }}</h2>
     <p><b>{{ .Params.Author }}</b> | {{ dateFormat "January 2, 2006" .Date.Local }}</p>
   </div>
 </div>
 
-<div class="container-fluid bg-flax">
+<div class="container-fluid">
   <div class="container post p-3">
     <div class="row g-4">
       <div class="col-12 col-lg-9">
@@ -73,18 +68,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
 <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
 <script src="https://substackapi.com/widget.js" async></script>
-<script>
- window.CustomSubstackWidget = {
-   substackUrl: "duedissidence.substack.com",
-   placeholder: "example@gmail.com",
-   buttonText: "\u2713",
-   theme: "custom",
-   colors: {
-     primary: "#212529",
-     input: "#00000000",
-     email: "#000000",
-     text: "#e9ecef",
-   }
- };
-</script>
+<script src="https://js.supascribe.com/v1/loader/HfbtxW2htiOXt3gcYefECBZgARE2.js" async></script>
 {{ end }}

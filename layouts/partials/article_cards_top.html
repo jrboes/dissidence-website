@@ -1,0 +1,23 @@
+<div class="col">
+  <div class="card h-100">
+
+    <a href="{{ .Permalink }}">
+      {{ with .Page.Resources.GetMatch .Params.Image }}
+        <img class="card-img-top" src="{{ .Permalink }}">
+      {{ else }}
+        <img class="card-img-top" src="{{ .Params.Image }}">
+      {{ end  }}
+    </a>
+
+    <div class="card-body post">
+      <a href="{{ .Permalink }}">
+        <h5 class="card-title">{{ .Title }}</h5>
+      </a>
+      <p class="card-text"><b>{{ .Params.Author }}</b></p>
+      <p class="card-text">{{ .Summary | plainify }}</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">{{ dateFormat "January 2, 2006" .Date.Local }}</small>
+    </div>
+  </div>
+</div>

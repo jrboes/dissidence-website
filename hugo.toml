@@ -2,13 +2,40 @@ baseURL = "https://duedissidence.com"
 languageCode = "en-us"
 title = "Due Dissidence"
 disableKinds = ["taxonomy"]
-summaryLength = 30
+summaryLength = 200
 enableRobotsTXT = "true"
 ignoreErrors = ["error-remote-getjson"]
 ignoreLogs = ['shortcode-x-getremote']
+[markup.goldmark.renderer]
+  unsafe= true
 [params]
   description = "Post Duopoly Left"
   author = "Due Dissidence"
+[menus]
+  [[menus.main]]
+    name = 'Articles'
+    pageRef = '/#writing'
+    weight = 10
+  [[menus.main]]
+    name = 'Videos'
+    pageRef = '/#video'
+    weight = 20
+  [[menus.main]]
+    name = 'Podcast'
+    pageRef = '/#audio'
+    weight = 30
+  [[menus.main]]
+    name = 'Shop'
+    pageRef = '/shop'
+    weight = 40
+  [[menus.main]]
+    name = 'Sponsor'
+    pageRef = '/sponsor'
+    weight = 50
+  [[menus.main]]
+    name = 'About'
+    pageRef = '#about'
+    weight = 60
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

@@ -3,7 +3,7 @@
 
     <h3 class="card-title">Other Articles</h3>
     <div class="row g-4">
-      {{ range ( where site.RegularPages "Section" "archives" | shuffle | first 3 ) }}
+      {{ range ( where site.RegularPages "Section" "articles" | shuffle | first 3 ) }}
       <div class="col-12">
         <a href={{ .Permalink }}><h5>{{ .Title }}</h5></a> - {{ .Params.Author }} | {{ dateFormat "January 2, 2006" .Date.Local }}
       </div>
@@ -22,6 +22,6 @@
     <hr>
     <h3 class="card-title">Get Notifications</h3>
     <p class="card-text">Get announcements of live streams and new articles.</p>
-    <div id="custom-substack-embed" class="d-flex justify-content-center"></div>
+    <div data-supascribe-embed-id="303236822099" data-supascribe-subscribe></div>
   </div>
 </div>

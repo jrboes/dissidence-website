@@ -2,27 +2,19 @@ html {
   scroll-padding-top: 50px;
 }
 
-@font-face {
-  font-family: StylizedFont;
-  src: url("tff/Trattatello.ttf");
-}
-
-:root{
-  /* Color Palette */
-  --vanilla: hsla(46, 82%, 82%, 1);
-  --flax: hsla(46, 75%, 75%, 1);
-  --gold-metallic: hsla(42, 70%, 66%, 1);
-  --bronze: hsla(33, 47%, 51%, 1);
-  --umber: hsla(30, 54%, 37%, 1);
-}
+$color-dark: hsla(45, 5%, 29%, 1);
+$color-light: hsla(40, 41%, 90%, 1);
+$color-med: hsla(40, 59%, 66%, 1);
 
 body {
-  background-image: url("img/background.jpg");
+  font-family:
+          system-ui, "Segoe UI",
+          Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: var(--flax);
+  background-color: white;
   flex-direction: column;
   min-height: 100vh;
   display: flex;
@@ -30,26 +22,27 @@ body {
 
 .navbar {
   font-size: 20px;
-  max-height: 50px;
-}
 
-.navbar-brand {
-  transition: transform .2s ease-in-out;
-  transform-origin: top left;
-  border-radius: 50% / 50%;
-  img {
-    border-radius: 50% / 50%;
-    border: 3px solid black;
+  //max-height: 50px;
+  a.navbar-brand {
+    display: inline-flex;
+    align-items: center;
+    h2 {
+      margin: 0px;
+    }
+    img {
+      margin-right: 10px;
+    }
   }
 }
 
 .banner {
+
   padding-top: 20px;
   margin-right: auto;
   margin-left: auto;
   max-width: 1320px;
   h1 {
-    font-family: StylizedFont, serif;
     font-size: 60px;
     margin-bottom: 0;
   }
@@ -57,23 +50,23 @@ body {
     padding: 0;
     box-shadow: 10px 10px 5px black;
   }
-}
-
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
+  .logo {
+    img {
+      box-shadow: none;
+    }
+  }
 }
 
 a:not(.btn, .nav-link) {
   text-decoration: none;
 
   &:link, &:visited, &:active {
-    color: var(--umber);
+    color: $color-med;
     background-color: transparent;
   }
 
   &:hover {
-    color: var(--bronze);
+    color: darken($color-med, 20%);
     background-color: transparent;
     text-decoration: underline;
   }
@@ -83,26 +76,26 @@ a:not(.btn, .nav-link) {
   box-shadow: 0 5px 5px black;
 }
 .bg-flax {
-  background-color: var(--flax);
+  background-color: $color-light;
 }
 .bg-gold {
-  background-color: var(--gold-metallic);
+  background-color: $color-light;
 }
 
 .card {
   border-radius: 10px;
-  background: var(--vanilla);
-  border: 2px solid var(--umber);
+  background: white;
+  border: 2px solid $color-med;
   box-shadow: 5px 5px 5px black;
 }
 .modal-content {
   border-radius: 10px;
-  background: var(--vanilla);
-  border: 2px solid var(--umber);
+  background: $color-light;
+  border: 2px solid $color-med;
   box-shadow: 5px 5px 5px black;
 }
 .modal-header {
-  border-bottom: 2px solid var(--umber);
+  border-bottom: 2px solid $color-light;
 }
 .video-container {
   position: relative;
@@ -126,7 +119,7 @@ a:not(.btn, .nav-link) {
   position: relative;
   height: 800px;
   overflow: hidden;
-  font-size: 20px;
+  font-size: 26px;
   text-align: center;
   text-transform: capitalize;
 }
@@ -166,16 +159,16 @@ blockquote{
   font-style: italic;
   color: black;
   padding: 1.2em 30px 1.2em 75px;
-  border-left: 8px solid var(--umber);
+  border-left: 8px solid $color-med;
   line-height: 1.6;
   position: relative;
-  background: var(--vanilla);
+  background: $color-light;
   box-shadow: 5px 5px 5px black;
 
   &::before{
     font-family: Arial, sans-serif;
     content: "\201C";
-    color: var(--umber);
+    color: $color-light;
     font-size: 4em;
     position: absolute;
     left: 10px;
@@ -183,5 +176,31 @@ blockquote{
   }
   &::after{
     content: '';
+  }
+}
+
+.captioned-button-wrap {
+  display: block;
+  margin: 1em auto;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 600px;
+
+  .button.primary,
+  a.button.primary {
+    display: inline-block;
+    padding: 0.7em 2em;
+    font-size: 1em;
+    border-radius: 24px;
+    background: $color-med;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 600;
+
+    &:hover {
+      background: darken($color-med, 20%);
+      color: #fff;
+      text-decoration: none;
+    }
   }
 }
